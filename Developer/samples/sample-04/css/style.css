@@ -1763,8 +1763,8 @@ content-8.signup-form form .close:focus {
 .content-23.custom-bg {
   background-image: url("file:///Users/nhung/Documents/GitHub/NhungLe/Developer/samples/sample-04/img/3082335-analytics_cellphone_charts_data_device_document_electronics_iphone_marketing_mobile-phone_paper_phone_screen_shadow_smartphone_statistics_stats_technology_touch.jpg");
   opacity: 10;
-  filter: alpha(opacity=9000);
-  opacity: 0.90;
+  filter: alpha(opacity=1000);
+  opacity: 2;
   filter: alpha(opacity=100);
 }
 
