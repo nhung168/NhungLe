@@ -1716,8 +1716,7 @@ content-8.signup-form form .close:focus {
   }
 }
 .header-10-sub .background {
-  height: 675px;
-  background-image: url('file:///Users/nhung/Documents/GitHub/NhungLe/Developer/samples/sample-04/img/cloud-accounting-software-1080x675.jpg');
+  background-image: url("file:///Users/nhung/Documents/GitHub/NhungLe/Developer/samples/sample-04/img/image1.jpg");
   opacity: 10;
   filter: alpha(opacity=9000);
   opacity: 0.90;
