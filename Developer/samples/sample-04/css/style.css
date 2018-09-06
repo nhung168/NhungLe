@@ -1716,7 +1716,7 @@ content-8.signup-form form .close:focus {
   }
 }
 .header-10-sub .background {
-  background-image: url("img/cloud-accounting-software-1080x675.jpg");
+  background-image: url('../img/cloud-accounting-software-1080x675.jpg');
   opacity: 10;
   filter: alpha(opacity=9000);
   opacity: 0.90;
@@ -1760,7 +1760,7 @@ content-8.signup-form form .close:focus {
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  background-image: url("img/Italy_001.png");
+  background-image: url('../img/Italy_001.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
