@@ -572,6 +572,7 @@ button:active {
   -o-transition: 0.25s;
   transition: 0.25s;
 }
+
 .navbar .navbar-collapse {
   padding-left: 0;
   padding-right: 0;
