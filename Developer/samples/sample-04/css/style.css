@@ -1716,7 +1716,7 @@ content-8.signup-form form .close:focus {
   }
 }
 .header-10-sub .background {
-  background-image: url("../img/cloud-accounting-software-1080x675.jpg");
+  background-image: url("file:///Users/nhung/Documents/GitHub/NhungLe/Developer/samples/sample-04/img/cloud-accounting-software-1080x675.jpg");
   opacity: 10;
   filter: alpha(opacity=9000);
   opacity: 0.90;
@@ -1760,12 +1760,10 @@ content-8.signup-form form .close:focus {
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  options: {
-  name: 'Italy_001.png',
-  useRelativePath: true,
-  outputPath: "img/",
-  publicPath: ""
-  }
+  background-image: url("file:///Users/nhung/Documents/GitHub/NhungLe/Developer/samples/sample-04/img/Italy_001.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .footer-3 {
   background-color: #1B1F23;
