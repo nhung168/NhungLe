@@ -2681,8 +2681,8 @@ input[type="button"].btn-block {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('/Users/nhung/Documents/GitHub/NhungLe/Developer/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.eot');
-  src: url('/Users/nhung/Documents/GitHub/NhungLe/Developer/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/Users/nhung/Documents/GitHub/NhungLe/Developer/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/Users/nhung/Documents/GitHub/NhungLe/Developer/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  src: url('Developer/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('Developer/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('Developer/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('Developer/flat-ui/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
 .glyphicon {
