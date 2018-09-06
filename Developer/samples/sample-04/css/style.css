@@ -591,7 +591,6 @@ button:active {
   padding: 0;
   width: 30px;
   height: 30px;
-  background: url("Developer/common-files/icons/menu-icon.png") 50% no-repeat;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -1759,7 +1758,7 @@ content-8.signup-form form .close:focus {
 }
 
 .content-23.custom-bg {
-  background-image: url("");
+  background-image: url("https://lh3.googleusercontent.com/0u570m3g_D-DOrII34qxXLInqOUdYg8FpiL1T9zbSpBb7u-ZRCFl6Dj6Qms2yCF2M_o9xNkWPdfIJXuMbw1FpXMa6nYUb2CcyufThCn4uLVJrFcbmKaKwTqEpLt9lXoEsdwjvuF2Wtd-vozj9Ye12i31EXTY0eO0JA-QOsVdn0Ylf4HIK4P2r5BE_l7rYV_Zy9k0Gxwt-4qljszh_9KzWCwXvImZi6b0Bgx-S6-q73Qn3pLYuKnjpBMDl9Hg2Lrb9taDeLAm51tQO2PidIwnKeFAKyjR1zXfYA3e70KgCWy0t3BYTnkk1CbS4h8B-zxkSJ441Ov7qAxqeqvN1uHCeLcRj31NXVOxbFXj2J-eT5gU8SKaJutP6BidI3qvVcA6wCuJGqw2y3Jns_h0b___YP4hqxB7BSCoZ0Wj9xLK92eFsmLHJNwHb376GTOi_gLhSLzNImhLD3kOEbq91R2_BQRmEdM76OZsh-AUCQDZ7SKisLzVKFsvdZqNf6PdGL9Fy7q9CX0k_m-uTTju2xvK-kP94iOvodPLeDvTEFmMe-RRqZhDnY3KuyzXv64Otc2I4YMcRFKbW4P5V5CWY66Sq_JGjZsfvqGkmyetevrhFao46RORNs3e-WiIs543skXzgvwB-sz4cu4plVGOoowm352ZP8LYSKC_8s-FePQJdXuDMDOFpQ9v1_w=w885-h590-no");
   opacity: 10;
   filter: alpha(opacity=1000);
   opacity: 2;
