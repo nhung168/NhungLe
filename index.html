@@ -118,21 +118,26 @@
                         <div class="row">
                             <div class="col-sm-6 col-sm-offset-3">
                                 <p>
-                                     lso provide you the different samples and tutorials of Excel, Tableau for your better presentation for your ideas and concepts
+                                     Also provide you the different samples and tutorials of Excel, Tableau for your better presentation for your ideas and concepts
                                 <br/>
-                                    The samples are updated day by day 
+                                    The samples are updated regularly 
                                 </p>
-                                <btn class="btn btn-large btn-clear" id="myBtn">SUBSCRIBE NOW</btn>
+                                <button class="btn btn-large btn-clear" onclick="document.getElementById('myModal').style.display='block'" style="width:auto;">SUBSCRIBE NOW</button>
                                 <!-- The Modal -->
-                                <div class = "signup-form">
-                                <div class="modal" id="myModal" >
-                                  <!-- Modal content -->
-                                  <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    <p>You will get newsletter regularly</p>
-                                  </div>
-                                </div>
-                                </div>
+								 <div id="myModal" class="modal">
+								  <span onclick="document.getElementById('myModal').style.display='none'" class="close" title="Close Modal">&times;</span>
+								  <form class="content-8 modal-content" action="/action_page.php">
+								    <div class="content-8 container">
+								      <h3>SUBSCRIPTION</h3>
+								      <p>Please subscribe to get updated posts regularly</p>
+								      <label for="email"><b>Email</b></label>
+								      <input type="text" placeholder="Enter Email" name="email" required>
+								        <button type="button" onclick="document.getElementById('myModal').style.display='none'" class="cancelbtn">Cancel</button>
+								        <button type="submit" class="signupbtn">Sign Up</button>
+								      </div>
+								    </div>
+								  </form>
+								</div>
                             </div>
                         </div>
                     </div>
@@ -177,6 +182,7 @@
         <script src="Developer/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="Developer/common-files/js/jquery.parallax.min.js"></script>
         <script src="Developer/common-files/js/startup-kit.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="Developer/samples/sample-04/js/jquery.backgroundvideo.min.js"></script>
         <script src="Developer/samples/sample-04/js/script.js"></script>
            <script type='text/javascript'>                    var divElement = document.getElementById('viz1536686937935');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.5)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>

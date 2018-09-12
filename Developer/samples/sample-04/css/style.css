@@ -555,6 +555,7 @@ a:active,
 button:active {
   outline: none;
 }
+
 .navbar {
   left: 0;
   right: 0;
@@ -1305,6 +1306,7 @@ section * {
   color: #7f8c8d;
   margin-bottom: 43px;
 }
+
 .content-8 .btn.btn-clear {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1335,6 +1337,110 @@ section * {
   display: table;
   width: 100%;
 }
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.content-8  .container {
+    padding: 16px;
+    width: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 20px;
+}
+
+/* Modal Content/Box */
+.content-8 .modal-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 15px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
 .content-8.v-center > div,
 .content-8 .v-center > div {
   display: table-cell;
@@ -1377,103 +1483,7 @@ section * {
     vertical-align: baseline;
   }
 }
-.content-8 .signup-form form {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-.content-8.signup-form form .form-group:first-child + .form-group {
-  display: table;
-  width: 100%;
-}
-.content-8.signup-form form .form-group:first-child + .form-group > div {
-  display: table-cell;
-  width: 50%;
-  padding-left: 5px;
-}
-@media (max-width: 767px) {
-  .content-8.signup-form form .form-group:first-child + .form-group > div {
-    padding-left: 9px;
-  }
-}
-.content-8.signup-form form .form-group:first-child + .form-group > div:first-child {
-  padding-left: 0;
-  padding-right: 5px;
-}
-@media (max-width: 767px) {
-  .content-8.signup-form form .form-group:first-child + .form-group > div:first-child {
-    padding-right: 9px;
-  }
-}
-.content-8.signup-form form .form-group:first-child + .form-group input {
-  width: 100%;
-}
 
-content-8.signup-form form .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-content-8.signup-form form .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-content-8.signup-form form .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-content-8.signup-form form .close:hover,
-content-8.signup-form form .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-@media (max-width: 767px) {
-  .content-8.signup-form form .btn {
-    margin: 9px 0;
-  }
-}
-.content-8.signup-form form .btn.btn-info:hover,
-.content-8.signup-form form .btn.btn-info:focus {
-  background-color: #16a085;
-}
-.content-8.signup-form form .btn.btn-info:active,
-.content-8.signup-form form .btn.btn-info.active {
-  background-color: #138871;
-}
-.content-8.signup-form form input[type="text"],
-.content-8.signup-form form input[type="password"] {
-  border-color: white!important;
-}
-@media (max-width: 767px) {
-  .content-8.signup-form form input[type="text"],
-  .content-8.signup-form form input[type="password"] {
-    height: 41px;
-  }
-}
-@media (max-width: 480px) {
-  .content-8.signup-form form {
-    margin-top: 25px;
-  }
-}
 /**
  * Content 11 stylesheet  
  * */
