@@ -1384,7 +1384,7 @@ button:hover {
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
-    position: relative; /* Stay in place */
+    position: sticky; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
