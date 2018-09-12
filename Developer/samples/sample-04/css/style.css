@@ -1382,14 +1382,14 @@ button:hover {
 }
 
 /* The Modal (background) */
-.modal {
+.content-8 .modal {
     display: none; /* Hidden by default */
-    position: sticky; /* Stay in place */
+    position: relative; /* Stay in place */
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    height: 50%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: #474e5d;
     padding-top: 20px;
