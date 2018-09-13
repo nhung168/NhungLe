@@ -1,5 +1,5 @@
 <?php
-$to = "office@site.com";
+$to = "nhung168@gmail.com";
 $from = "no-reply@site.com";
 
 $headers = "From: " . $from . "\r\n";
