@@ -110,10 +110,6 @@
             <section id="section4">
             <div class="content-8 v-center">
                     <div class="container">
-                        <img width="300" height="200" alt="how to make an interative CV" src="Developer/common-files/img/content/Eg1.png"/>
-                        <img width="300" height="200" alt="Tutorial videos for Visual Basic Application & Excel Macro " src="Developer/common-files/img/content/Eg2.png"/>
-                        <img width="300" height="200" alt="Tutorial videos for learning Google App Script" src="Developer/common-files/img/content/Eg3.png"/>
-                        <img width="300" height="200" alt="Tutorial Videos for learning visualization data by Tableau" src="Developer/common-files/img/content/Eg4.png"/>
                         <h3>Các bài hướng dẫn xây dựng công cụ </h3>
                         <div class="row">
                             <div class="col-sm-6 col-sm-offset-3">
@@ -122,15 +118,23 @@
                                 <br/>
                                     Các bài hướng dẫn được cập nhập thường xuyên
                                 </p>
-                                <btn class="btn btn-large btn-clear" id="myBtn">ĐĂNG KÝ CẬP NHẬP</btn>
+                                <button class="btn btn-large btn-clear" onclick="document.getElementById('myModal').style.display='block'" style="width:auto;">ĐĂNG KÝ BÂY GIỜ</button>
                                 <!-- The Modal -->
-                                <div class = "signup-form">
-                                <div class="modal" id="myModal" >
-                                  <!-- Modal content -->
-                                  <div class="modal-content">
-                                    <span class="close">&times;</span>
-                                    <p>Bạn sẽ nhận được các bài hướng dẫn mới khi đăng kí</p>
-                                  </div>
+                                 <div id="myModal" class="content-8 modal">
+                                  <span onclick="document.getElementById('myModal').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                 <div id="mc_embed_signup">
+                                    <form class="content-8 modal-content" action="https://nhungleh.us19.list-manage.com/subscribe/post?u=196276fe57cf1dc27cd454d7c&amp;id=82978b5514" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+                                    <div class ="content-8 container">
+                                    <h3>ĐĂNG KÝ</h3>
+                                    <p for="mce-EMAIL">Để nhận bài viết thường xuyên</p>
+                                </br>
+                                    <label for="email"><b>Email</b></label>
+                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div class="clear"><input type="submit" value="Subscribe" name="Đăng Kí" id="mc-embedded-subscribe" class="button"></div>
+                                    </div>
+                                    </form>
                                 </div>
                                 </div>
                             </div>
