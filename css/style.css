@@ -1808,7 +1808,7 @@ mc_embed_signup {
   }
 }
 .header-10-sub .background {
-  background-image: url("img/1.jpg");
+  background-image: url("https://photo-cdn.icons8.com/assets/previews/994/e751598b-a61b-4d8f-b0cd-8b3aed6360a71x.jpg");
   height: 100%;
   opacity: 0.90;
   filter: alpha(opacity=100);
@@ -1852,14 +1852,14 @@ mc_embed_signup {
 }
 
 .content-23.custom-bg {
-  background-image: url("img/2.jpg");
+  background-image: url("https://photo-cdn.icons8.com/assets/previews/343/6b41fbee-16ed-49e2-8fd8-2edf35e51dbf1x.jpg");
   height: 120vh;
   opacity: 10;
   filter: alpha(opacity=1000);
 }
 
 .content-23.custom-bg-2 {
-  background-image: url("img/3.jpg");
+  background-image: url("https://photo-cdn.icons8.com/assets/previews/290/0261e648-b608-4c84-ad8c-0f49dedfd5dd1x.jpg");
   height: 120vh;
   opacity: 10;
   filter: alpha(opacity=1000);
