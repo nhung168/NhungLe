@@ -97,6 +97,8 @@ p {
   /* 31px */
 
 }
+
+
 .lead {
   font-size: 28px;
   /* 28px */
@@ -1875,4 +1877,1239 @@ mc_embed_signup {
   color: #7F8C8D;
 }
 
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary
+{display:block}
 
+.posts
+{background-color:#242629}
+
+.posts .hentry
+{background:#fff;
+float:left;
+overflow:hidden;
+position:relative;
+width:33.3333%}
+
+
+.posts .edit-link
+{position:absolute;
+text-align:center;
+top:12px;
+width:100%;
+z-index:5}
+
+.posts .has-post-thumbnail .edit-link
+{right:0;
+width:50%}
+
+.posts .edit-link a
+{color:#c6cfd8;
+display:inline-block;
+font-size:75%;
+letter-spacing:.1em;
+overflow:hidden;
+padding:2px 5px;
+text-transform:uppercase;
+-webkit-transition:color .2s;
+-moz-transition:color .2s;
+transition:color .2s}
+
+.posts .edit-link a:hover
+{color:#9ba7b5;
+text-decoration:none}
+
+.posts .cover-link
+{border:1px solid transparent;
+bottom:0;
+left:0;
+position:absolute;
+right:0;
+top:0;
+-webkit-transition:border-color .3s,border-width .3s;
+transition:border-color .3s,border-width .3s;
+z-index:4}
+
+.posts .cover-link:hover,.posts .cover-link:focus
+{border-color:rgba(0,0,0,.2);
+border-width:15px}
+
+.posts .entry-media
+{background-color:#242629;
+background-position:center center;
+background-size:cover;
+padding-bottom:66.666%;
+position:relative;
+width:50%
+}
+
+.posts .entry-media.ridge 
+{border-style: ridge;}
+
+
+.posts .entry-inner
+{background:#fff;
+bottom:0;
+position:absolute;
+top:0;
+vertical-align:middle;
+width:50%}
+
+.posts .entry-inner:before
+{color:#abb7c3;
+content:"\f100";
+display:block;
+font-size:3.5rem;
+height:50px;
+left:0;
+line-height:50px;
+margin-left:-25px;
+margin-top:-25px;
+position:absolute;
+text-align:center;
+top:50%;
+width:50px;
+z-index:5}
+
+.posts .format-image .entry-inner:before
+{content:"\f102";
+font-size:2.5rem}
+
+.posts .sticky .entry-inner:before
+{content:"\f408";
+font-size:2.5rem}
+
+.posts .entry-inner:after
+{background-color:#fff;
+border-radius:50px;
+content:"";
+display:block;
+height:50px;
+left:0;
+margin-left:-25px;
+margin-top:-25px;
+position:absolute;
+top:50%;
+width:50px}
+
+.posts .entry-inner-content
+{border-bottom:3px solid #fff;
+bottom:50%;
+max-height:80%;
+overflow:hidden;
+padding:0 14%;
+position:absolute;
+right:0;
+text-align:left;
+-ms-transform:translateY(50%);
+-webkit-transform:translateY(50%);
+transform:translateY(50%);
+width:100%}
+
+.posts .entry-header
+{margin-bottom:0;
+padding:0}
+
+.posts .entry-title
+{font-size:3rem;
+font-weight:700;
+text-align:center}
+
+.posts .entry-title h2
+{text-transform:none}
+
+.posts .entry-title a
+{color:#1a1c1e}
+
+.posts .entry-content
+{padding-top:2rem}
+
+div. a
+{font-size: 18.004px;
+text-indent: 30px;}
+
+.link-more
+{font-weight:400;
+text-align:center}
+
+.link-more a
+{background-color:#e7ae01;
+color:#fff;
+display:inline-block;
+font-size:1.4rem;
+letter-spacing:.1em;
+margin:1em 0 0;
+padding:.62em 1.62em;
+position:relative;
+text-decoration:none;
+text-transform:uppercase;
+-webkit-transition:background-color .3s;
+transition:background-color .3s;
+z-index:10}
+
+.posts .hentry:hover .link-more a
+{background-color:#f0b80e}
+
+.too-short .link-more
+{background:#fff;
+bottom:0;
+left:0;
+margin-bottom:-1px;
+position:absolute;
+width:100%}
+
+.too-short .entry-inner-content:before,.too-short .link-more:before
+{background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,0)),color-stop(100%,rgba(255,255,255,1)));
+background:-webkit-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+background:-o-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+background:-ms-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+bottom:0;
+content:"";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#ffffff',GradientType=0);
+height:40%;
+left:0;
+position:absolute;
+width:100%}
+
+.too-short .link-more:before
+{bottom:100%}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-media
+{background-color:transparent}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-inner
+{width:100%}
+
+.posts .hentry:not(.has-post-thumbnail):before
+{border-top:1px solid #d8dfe6;
+content:"";
+position:absolute;
+left:15%;
+margin-top:20px;
+right:15%;
+top:10%;
+z-index:1}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-inner:after,.posts .hentry:not(.has-post-thumbnail) .entry-inner:before
+{font-size:2.2rem;
+height:40px;
+left:50%;
+line-height:40px;
+margin-top:0;
+margin-left:-20px;
+top:10%;
+width:40px;
+z-index:3}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-inner:after
+{border:1px solid #c6cfd8;
+z-index:2}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-inner-content
+{bottom:auto;
+height:80%;
+padding-top:15%;
+position:relative;
+-ms-transform:translateY(0);
+-webkit-transform:translateY(0);
+transform:translateY(0)}
+
+.posts .no-results
+{background:#fff;
+min-height:300px;
+padding-top:2em}
+
+.posts .no-results .entry-inner,.posts .no-results .entry-inner-content
+{position:static;
+transform:none;
+width:auto}
+
+.posts .no-results .cover-link,.posts .no-results .entry-inner:before,.posts .no-results .entry-inner:after
+{display:none}
+
+.error404 .entry-inner
+{margin:0 auto;
+max-width:900px;
+padding:3rem 0 5rem;
+position:relative}
+
+.error404 .entry-header
+{padding-bottom:3em;
+padding-top:3rem;
+text-align:center}
+
+.error404 .entry-content>p
+{text-align:center}
+
+.error404 .search-form,.posts .no-results .search-form
+{display:block;
+margin:auto;
+padding-bottom:7rem;
+width:60%}
+
+.error404 .search-form .search-field,.posts .no-results .search-form .search-field
+{background:0 0;
+display:block;
+position:relative;
+text-align:left;
+width:100%;
+z-index:0}
+
+.error404 .search-form .search-submit,.posts .no-results .search-form .search-submit
+{display:none}
+
+.error404 .error404-widgets
+{display:table;
+table-layout:fixed;
+width:100%}
+
+.error404 .entry-content .widget
+{display:table-cell;
+padding:0 2rem 3rem;
+width:100%}
+
+.error404 .entry-content .widget a
+{text-decoration:none}
+
+.error404 .entry-content .widget ul li
+{border-color:#c0c9d3}
+
+.is-singular:not(.home) .site-inner
+{background:#fff;
+float:right;
+position:relative;
+width:50%}
+
+.is-singular:not(.home):not(.has-post-thumbnail) .site-inner,.is-singular.single-format-image .site-inner,.is-singular:not(.home).is-singular:not(.home).page-template-eventbrite-index .site-inner
+{float:none;
+width:auto}
+
+.is-singular:not(.home):not(.single-format-image) .site-content,.is-singular:not(.home).single-format-image:not(.has-post-thumbnail) .site-content
+{padding:13.5rem 0 0}
+
+.is-singular .site-content:before. .is-singular .site-content:after
+{content:""}
+
+.home.is-singular .content-area,.single-format-image.has-post-thumbnail .content-area
+{padding-top:6rem}
+
+.is-singular .entry-inner,.is-singular:not(.home).page-template-eventbrite-index .content-area
+{margin:50px auto 0;
+position:relative}
+
+.has-post-thumbnail.is-singular .entry-inner
+{max-width:72%}
+
+.home.is-singular .entry-inner,body:not(.has-post-thumbnail).is-singular .entry-inner,.is-singular.single-format-image .entry-inner,.is-singular.page-template-eventbrite-index .content-area
+{max-width:700px}
+
+.home.is-singular .entry-inner
+{padding:0 0 5rem}
+
+.is-singular .entry-inner:after,.is-singular .entry-inner:before,.error404 .entry-inner:after,.error404 .entry-inner:before,.page-template-eventbrite-index .page-header:after,.page-template-eventbrite-index .page-header:before,.single-event .entry-header:after,.single-event .entry-header:before
+{content:"";
+left:50%;
+position:absolute;
+top:0}
+
+.is-singular .entry-inner:after,.error404 .entry-inner:after,.page-template-eventbrite-index .page-header:after,.single-event .entry-header:after
+{background:#e7ae01;
+border-radius:30px;
+height:36px;
+margin:-18px 0 0 -18px;
+width:36px}
+
+.is-singular .entry-inner:before,.error404 .entry-inner:before,.page-template-eventbrite-index .page-header:before,.single-event .entry-header:before
+{color:#fff;
+content:"\f100";
+font-size:2.5rem;
+line-height:36px;
+margin:-18px 0 0 -18px;
+text-align:center;
+width:36px;
+z-index:4}
+
+.error404 .entry-inner:before
+{content:"\f400"}
+
+.single-format-image .entry-inner:before
+{content:"\f102";
+font-size:2rem}
+
+.is-singular .entry-header,.page-template-eventbrite-index .page-header,.single-event .event-header
+{padding-bottom:3em;
+padding-top:3rem}
+
+.is-singular:not(.home):not(.page-template-eventbrite-index) .entry-header
+{font-style:italic}
+
+.is-singular.home .entry-header,.is-singular:not(.has-post-thumbnail) .entry-header,.is-singular.single-format-image .entry-header,.is-singular:not(.home).page-template-eventbrite-index .entry-header
+{text-align:center}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header
+{background:rgba(0,0,0,.4);
+border-top:1px solid rgba(255,255,255,.2);
+bottom:0;
+color:rgba(255,255,255,.7);
+left:0;
+padding:0 6rem 6rem;
+position:fixed;
+text-align:left;
+width:50%}
+
+.page.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header
+{padding-bottom:8rem;
+padding-top:4rem}
+
+.is-singular:not(.page-template-eventbrite-index) .entry-header h1
+{font-style:normal;
+margin-top:1rem}
+
+.is-singular:not(.home):not(.page-template-eventbrite-index) .entry-header a
+{font-style:normal;
+letter-spacing:.1em;
+text-transform:uppercase}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header h1,.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header a
+{color:#fff}
+
+.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-meta
+{font-size:1.5rem;
+top:-20px}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-meta
+{position:relative;
+width:100%}
+
+.has-post-thumbnail .entry-meta .cat-links
+{background:#678db8;
+color:#fff;
+display:inline-block;
+padding:13px 15px}
+
+.entry-meta .cat-links
+{font-size:1.3rem;
+letter-spacing:.1em;
+text-transform:uppercase}
+
+.is-singular .entry-posted
+{border-top:1px solid rgba(255,255,255,.6);
+font-size:1.5rem;
+margin-top:1.5em;
+padding-top:1.5em}
+
+.is-singular:not(.has-post-thumbnail) .entry-posted,.is-singular.single-format-image .entry-posted,.is-singular:not(.home).page-template-eventbrite-index .entry-posted
+{border:0;
+margin:0;
+padding:1.5em 0 0}
+
+.is-singular.has-post-thumbnail:not(.single-format-image):not(.page-template-eventbrite-index) .entry-posted .posted-info
+{float:left}
+
+.is-singular.has-post-thumbnail:not(.single-format-image):not(.page-template-eventbrite-index) .entry-posted .edit-link
+{float:right}
+
+.page.is-singular .edit-link
+{font-size:1.6rem;
+letter-spacing:.1em;
+margin-top:1rem;
+text-transform:uppercase}
+
+.is-singular:not(.has-post-thumbnail) .entry-meta .cat-links,.is-singular:not(.has-post-thumbnail) .entry-posted,.is-singular.single-format-image .entry-meta .cat-links,.is-singular.single-format-image .entry-posted,.is-singular:not(.home).page-template-eventbrite-index .entry-meta .cat-links,.is-singular:not(.home).page-template-eventbrite-index .entry-posted
+{font-size:1.5rem}
+
+.is-singular.has-post-thumbnail:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-content
+{padding-top:4em}
+
+.is-singular .entry-content:before,.error404 .entry-content:before
+{border-top:1px solid #e0e0e0;
+content:"";
+display:block;
+left:25%;
+position:absolute;
+right:25%;
+top:0}
+
+.tags-links
+{font-size:90%;
+margin:5rem 0 0;
+text-align:center}
+
+.tags-links a
+{background-color:#efefef;
+color:#949494;
+display:inline-block;
+margin:0 .5em .5em 0;
+padding:.25em .75em;
+-webkit-transition:background-color .4s,color .4s;
+transition:background-color .4s,color .4s}
+
+.tags-links a:hover,.tags-links a:focus
+{background-color:#e0e0e0;
+color:#777;
+text-decoration:none}
+
+.tags-links a:last-of-type
+{margin-right:0}
+
+.is-singular .post-navigation .nav-links
+{margin:2em auto 0;
+max-width:72%;
+padding:3em 0;
+position:relative;
+text-align:center}
+
+.is-singular .post-navigation .nav-links:after,.is-singular .post-navigation .nav-links:before
+{content:"";
+left:50%;
+position:absolute;
+top:0}
+
+.is-singular .post-navigation .nav-links:after
+{background-color:#e7ae01;
+border-radius:12px;
+height:12px;
+margin:-6px 0 0 -6px;
+width:12px}
+
+.is-singular:not(.page-template-eventbrite-index) .post-navigation .nav-links:before
+{border-top:1px solid #e0e0e0;
+left:37.5%;
+right:37.5%}
+
+.is-singular .post-navigation .nav-links span.nav-subtitle
+{color:#9da5ad;
+display:block;
+font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size:1.3rem;
+letter-spacing:.1em;
+text-transform:uppercase}
+
+.is-singular .post-navigation .nav-links span.nav-title
+{font-family:"Noto Serif",Georgia,serif}
+
+.is-singular .post-navigation .nav-links a:hover
+{text-decoration:none}
+
+.is-singular .post-navigation .nav-links a:hover span.nav-title
+{text-decoration:underline}
+
+.is-singular .nav-previous,.is-singular .nav-next
+{padding-bottom:2em}
+
+.is-singular .entry-media
+{background-color:#242629;
+background-position:50% 50%;
+background-size:cover;
+height:100%;
+left:0;
+overflow:hidden;
+position:fixed;
+top:0;
+width:50%}
+
+.is-singular .entry-media-thumb
+{background-color:#292c2f;
+background-position:50% 50%;
+background-size:cover;
+overflow:hidden;
+padding-bottom:66%}
+
+.admin-bar.is-singular .entry-media
+{top:32px}
+
+.home.is-singular .entry-media
+{display:none}
+
+.is-singular .entry-media img
+{visibility:hidden}
+
+.page-template-eventbrite-index .page-title
+{padding:0}
+
+.page-template-eventbrite-index .page-header,.single-event .entry-header
+{background:0 0;
+border-bottom:0;
+margin-bottom:1em;
+position:relative;
+z-index:1}
+
+.is-singular.archive-eventbrite .entry-header
+{padding-top:0}
+
+.is-singular.archive-eventbrite .entry-header h1
+{font-size:4rem}
+
+.single-format-image:not(.has-post-thumbnail) .site-banner-media,.is-singular:not(.home).page-template-eventbrite-index .site-banner-media
+{display:none}
+
+.single-format-image.has-post-thumbnail .entry-meta .cat-links
+{background-color:transparent;
+color:#6a6c6e;
+padding:0}
+
+
+
+@media only screen and (max-width:1600px)
+.site-banner-header
+{left:15%;
+right:15%}
+
+.site-banner-media,.site-banner .site-banner-thumbnail
+{padding-bottom:40%}
+
+.home .content-area,.blog .content-area,.single-format-image.has-post-thumbnail .content-area
+{margin-top:40%}
+
+.posts .hentry
+{width:50%}
+
+.posts .entry-media
+{float:left}
+
+.posts .hentry:nth-of-type(4n+3) .entry-media,.posts .hentry:nth-of-type(4n+4) .entry-media
+{float:right}
+
+.posts .entry-inner
+{right:0}
+
+.posts .hentry:nth-of-type(4n+3) .entry-inner,.posts .hentry:nth-of-type(4n+4) .entry-inner,.posts .hentry:nth-of-type(4n+3) .edit-link,.posts .hentry:nth-of-type(4n+4) .edit-link
+{left:0;
+right:auto}
+
+.posts .hentry:nth-of-type(4n+3).has-post-thumbnail .entry-inner:after,.posts .hentry:nth-of-type(4n+4).has-post-thumbnail .entry-inner:after,.posts .hentry:nth-of-type(4n+3).has-post-thumbnail .entry-inner:before,.posts .hentry:nth-of-type(4n+4).has-post-thumbnail .entry-inner:before
+{left:auto;
+margin-left:0;
+margin-right:-25px;
+right:0}
+
+.widget-area
+{max-width:calc(100% - 4em)}
+
+}
+
+@media only screen and (max-width:1400px)
+{body
+{font-size:1.7rem}
+
+h1
+{font-size:4rem}
+
+.site-header,.admin-bar .site-header,.admin-bar.is-singular .site-header
+{position:absolute;
+top:0}
+
+.site-branding
+{width:35%}
+
+#site-navigation
+{width:65%}
+
+.site-banner h1
+{font-size:4rem;
+padding-bottom:1.5rem}
+
+.site-banner-header .banner-featured
+{padding-bottom:10px;
+padding-top:10px}
+
+.posts .entry-title
+{font-size:3rem}
+
+.has-post-thumbnail .entry-meta .cat-links
+{padding-bottom:10px;
+padding-top:10px}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header
+{padding:0 4rem 3rem}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .widget-area .widget
+{width:100%}
+
+}
+
+@media only screen and (max-width:1200px)
+{.site-banner
+{position:relative;
+width:100%}
+
+.site-banner h1
+{font-size:3.5rem}
+
+.site-banner p
+{display:none}
+
+.site-banner-header
+{bottom:5rem;
+left:15%;
+right:15%}
+
+.site-banner-media,.site-banner .site-banner-thumbnail
+{padding-bottom:50%}
+
+.site-banner .slick-prev,.site-banner .slick-next
+{bottom:5.5rem}
+
+.admin-bar .site-banner
+{top:auto}
+
+.is-scrolled .site-banner-inner,.is-scrolled .site-banner-header
+{opacity:1.0}
+
+.page-title
+{padding:3rem 0}
+
+body:not(.is-singular) .content-area,.home .content-area,.blog .content-area,.single-format-image.has-post-thumbnail .content-area
+{margin-top:0}
+
+.home.is-singular .content-area,.single-format-image.has-post-thumbnail .content-area
+{padding-top:4rem}
+
+.posts
+{background:#fff}
+
+.posts .hentry
+{float:none;
+width:100%}
+
+.posts .hentry:nth-child(odd) .entry-media
+{float:left}
+
+.posts .hentry:nth-child(even) .entry-media
+{float:right}
+
+.posts .hentry:nth-child(odd) .entry-inner,.posts .hentry:nth-child(odd) .edit-link,.posts .hentry:nth-child(even).has-post-thumbnail .entry-inner:after,.posts .hentry:nth-child(even).has-post-thumbnail .entry-inner:before
+{left:auto;
+right:0}
+
+.posts .hentry:nth-child(even).has-post-thumbnail .entry-inner:after,.posts .hentry:nth-child(even).has-post-thumbnail .entry-inner:before
+{margin-left:0;
+margin-right:-25px}
+
+.posts .hentry:nth-child(even) .entry-inner,.posts .hentry:nth-child(even) .edit-link,.posts .hentry:nth-child(odd).has-post-thumbnail .entry-inner:after,.posts .hentry:nth-child(odd).has-post-thumbnail .entry-inner:before
+{left:0;
+right:auto}
+
+.posts .hentry:nth-child(odd).has-post-thumbnail .entry-inner:after,.posts .hentry:nth-child(odd).has-post-thumbnail .entry-inner:before
+{margin-left:-25px;
+margin-right:0}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-inner
+{position:relative}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-media
+{display:none}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-inner-content
+{height:auto;
+padding-bottom:4rem;
+padding-top:12rem}
+
+.posts .hentry:not(.has-post-thumbnail):before
+{top:4rem}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-inner:after,.posts .hentry:not(.has-post-thumbnail) .entry-inner:before
+{top:4rem}
+
+.too-short .link-more
+{position:relative}
+
+.too-short .link-more:before,.too-short .entry-inner-content:before
+{display:none}
+
+.error404 .entry-inner
+{margin:90px auto 0}
+
+.error404 .page-header h1
+{font-size:4rem}
+
+.is-singular.has-post-thumbnail:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .site-inner
+{width:65%}
+
+.is-singular:not(.has-post-thumbnail) .site-content,.is-singular.single-format-image .site-content,.is-singular:not(.home).page-template-eventbrite-index .site-content
+{margin-left:auto;
+margin-right:auto}
+
+.is-singular .entry-header,.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header,.page-template-eventbrite-index .page-header,.single-event .entry-header
+{padding:3em 0 0;
+text-align:center}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header
+{background:0 0;
+color:#6a6c6e;
+position:relative;
+width:auto}
+
+.is-singular:not(.eventbrite-archive) .entry-header h1,.error404 .entry-header h1,.page-header h1
+{font-size:4rem}
+
+.is-singular.archive-eventbrite .entry-header h1
+{font-size:3rem}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header h1
+{color:#1a1c1e}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header a,.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-header .cat-links
+{color:#6a6c6e}
+
+.is-singular .entry-posted
+{border-top:0;
+font-size:1.5rem;
+margin-top:0;
+text-align:center}
+
+.page.is-singular .edit-link
+{font-size:1.5rem}
+
+.is-singular.has-post-thumbnail:not(.single-format-image):not(.page-template-eventbrite-index) .entry-posted .posted-info,.is-singular.has-post-thumbnail:not(.single-format-image):not(.page-template-eventbrite-index) .entry-posted .edit-link
+{float:none}
+
+.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-meta
+{top:auto}
+
+.has-post-thumbnail .entry-meta .cat-links
+{background:0 0;
+padding:0}
+
+.is-singular .entry-content,.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-content
+{padding-top:3rem}
+
+.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-media
+{width:35%}
+
+.widget-area
+{max-width:calc(84% + 4em)}
+
+.widget-area .widget,.widget-area.widgets-three .widget
+{width:49.5%}
+
+.footer-bottom-info.has-social-menu .site-info,.footer-bottom-info.has-social-menu .social-links
+{float:none;
+text-align:center}
+
+.footer-bottom-info.has-social-menu .social-links
+{padding-bottom:10px}
+
+}
+
+@media only screen and (min-width:961px)
+{.is-singular .entry-media-thumb
+{background-image:none !important;
+display:none}
+
+}
+
+@media only screen and (max-width:960px)
+{.site-header
+{min-height:0 !important}
+
+.site-header,.is-singular .site .site-header,.admin-bar .site-header,.admin-bar.is-singular .site-header
+{display:block;
+padding:2rem 2rem 0;
+position:relative;
+top:0;
+width:100%}
+
+.site-header,.is-scrolled .site-header,.blog .site-header,.home .site-header
+{background-color:#292c2f}
+
+.site-branding
+{display:block;
+float:none;
+padding-bottom:2rem;
+width:75%}
+
+.is-singular:not(.home) .site-header>.site-branding
+{display:block}
+
+.site-branding .site-logo-link img
+{max-width:250px}
+
+#site-navigation
+{display:block;
+float:none;
+text-align:left;
+width:100%}
+
+.menu-toggle
+{background-color:rgba(0,0,0,.1);
+border:1px solid rgba(255,255,255,.2);
+display:block;
+font-family:"Lato","Helvetica Neue",Helvetica,sans-serif;
+font-size:1.4rem;
+font-weight:700;
+letter-spacing:.1em;
+padding:1em 1.5em;
+position:absolute;
+right:2rem;
+text-transform:uppercase;
+top:1rem}
+
+.menu-toggle:before
+{content:"\f419";
+font-size:85%;
+margin:0 6px 0 0;
+position:relative;
+top:1px}
+
+.open .menu-toggle:before
+{content:"\f406"}
+
+#site-navigation>div
+{display:none}
+
+#site-navigation.open>div
+{display:block}
+
+#site-navigation ul li
+{border-top:1px solid #363b40;
+display:block;
+margin:0;
+padding:0}
+
+#site-navigation ul a
+{color:#8c97a2;
+display:block;
+padding:1em 0}
+
+#site-navigation ul ul
+{background:0 0;
+line-height:1.6;
+margin:0 0 0 2rem !important;
+padding:0;
+position:static;
+width:auto}
+
+#site-navigation ul ul:before
+{display:none}
+
+#site-navigation ul ul li
+{border:0}
+
+#site-navigation ul ul a
+{color:#616a74;
+padding:1rem 0}
+
+#site-navigation ul li:hover>ul,#site-navigation ul li.focus>ul,#site-navigation ul ul li:hover>ul,#site-navigation ul ul li.focus>ul
+{left:0;
+margin:0}
+
+#site-navigation ul ul ul
+{padding-left:0}
+
+.site-banner-header .banner-featured
+{font-size:1.1rem;
+padding:10px 12px}
+
+.site-banner-header:after,.site-banner .slick-next,.site-banner .slick-prev
+{display:none}
+
+.site-content
+{padding-top:0 !important}
+
+.is-singular:not(.home) .site-inner,.is-singular.has-post-thumbnail:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .site-inner
+{width:100%}
+
+.is-singular .entry-inner,.has-post-thumbnail.is-singular .entry-inner,body.is-singular:not(.has-post-thumbnail) .entry-inner,.is-singular.single-format-image .entry-inner,.error404 .entry-inner,.is-singular:not(.home).page-template-eventbrite-index .entry-inner
+{max-width:100%;
+padding-left:8%;
+padding-right:8%}
+
+.is-singular:not(.home):not(.single-format-image) .entry-inner,.is-singular:not(.home).single-format-image:not(.has-post-thumbnail) .entry-inner,.is-singular:not(.home).page-template-eventbrite-index .content-area
+{margin:90px auto 0}
+
+.is-singular:not(.eventbrite-archive) .entry-header h1,.error404 .entry-header h1,.page-header h1
+{font-size:3.5rem}
+
+.home.is-singular .entry-inner,.single-format-image.has-post-thumbnail .entry-inner
+{padding-top:0}
+
+.admin-bar.is-singular .entry-media
+{top:auto}
+
+.is-singular .entry-media,.is-singular:not(.home) .entry-media,.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-media
+{background:0 0 !important;
+height:auto;
+margin:0 0 5.5rem;
+position:relative;
+right:auto;
+top:auto;
+width:auto}
+
+.is-singular .entry-media-thumb
+{display:block}
+
+.page-template-eventbrite-index .entry-content
+{padding-left:20px;
+padding-right:20px}
+
+.single-format-image.has-post-thumbnail .site-banner-media,.single-format-image.has-post-thumbnail .site-banner .site-banner-thumbnail
+{padding-bottom:66%}
+
+.is-singular .comments-area,.home.is-singular .comments-area
+{max-width:100%;
+padding-left:8%;
+padding-right:8%}
+
+.tags-links
+{line-height:1.6}
+
+.is-singular .entry-footer
+{line-height:3.62rem;
+margin-top:1.62rem;
+padding:1rem 1.62rem;
+position:relative}
+
+.is-singular.has-post-thumbnail:not(.home):not(.page-template-eventbrite-index) .widget-area .widget
+{width:49.5%}
+
+.is-singular.has-post-thumbnail:not(.home) .widget-area
+{max-width:calc(84% + 4em)}
+
+}
+
+@media only screen and (max-width:680px)
+{body
+{font-size:1.6rem}
+
+h1
+{font-size:4rem}
+
+blockquote
+{margin-left:1.5em}
+
+.site-title
+{font-size:2.2rem}
+
+.site-branding .site-logo-link+.site-title
+{margin-top:1rem}
+
+.menu-toggle
+{font-size:1.2rem}
+
+.site-banner
+{border-bottom:1px solid #fff}
+
+.site-banner h1
+{font-size:2.2rem;
+max-width:100%;
+padding-bottom:0}
+
+.site-banner-header
+{bottom:20px;
+left:0;
+right:0}
+
+.site-banner-header .banner-featured
+{padding:8px 10px;
+top:-10px}
+
+.site-banner-header:after,.site-banner-header:before
+{display:none}
+
+.is-singular.home #site-banner
+{margin-bottom:10px}
+
+.banner-custom-header .site-banner-header
+{padding-top:15px}
+
+.banner-custom-header .site-banner-header h1:before
+{height:4px;
+left:50%;
+margin:-4px 0 0 -40px;
+width:80px}
+
+.slider-nav
+{display:none !important}
+
+.posts .hentry:hover:after,.posts .hentry:focus:after
+{display:none}
+
+.posts .hentry:nth-child(even) .entry-media,.posts .hentry:nth-child(odd) .entry-media
+{float:none}
+
+.posts .entry-inner-content
+{padding:4.62rem 4% 2.62rem;
+position:relative;
+-ms-transform:none;
+-webkit-transform:none;
+transform:none}
+
+.posts .hentry:nth-child(even).has-post-thumbnail .entry-inner:after,.posts .hentry:nth-child(even).has-post-thumbnail .entry-inner:before,.posts .hentry:nth-child(odd).has-post-thumbnail .entry-inner:after,.posts .hentry:nth-child(odd).has-post-thumbnail .entry-inner:before
+{left:50%;
+margin-left:-25px;
+margin-right:0;
+top:0}
+
+.posts .entry-inner:before
+{font-size:3rem;
+line-height:50px}
+
+.posts .entry-title
+{font-size:2rem}
+
+.link-more
+{margin-bottom:1.5rem}
+
+.link-more a
+{font-size:1.2rem;
+margin-top:0}
+
+.posts .hentry .entry-media
+{overflow:hidden;
+padding:0 0 66.66%}
+
+.posts .hentry .entry-media,.posts .hentry .entry-inner,.entry-inner-content
+{bottom:auto;
+float:none;
+height:auto;
+left:auto;
+max-height:100%;
+position:relative;
+right:auto;
+top:auto;
+width:100%}
+
+.entry-inner-content
+{position:static}
+
+.posts .entry-media .post-thumbnail
+{height:100%;
+left:0;
+overflow:hidden;
+position:absolute;
+top:50%;
+-ms-transform:translateY(-50%);
+-webkit-transform:translateY(-50%);
+transform:translateY(-50%);
+width:100%}
+
+.posts .cover-link:hover,.posts .cover-link:focus
+{border-width:10px}
+
+.entry-header
+{padding:0 0 2rem}
+
+.posts .hentry:not(.has-post-thumbnail) .entry-media
+{display:none}
+
+.error404 .search-form,.error404 .entry-content .widget
+{display:block;
+float:none;
+width:auto}
+
+.error404 .entry-content .widget
+{padding-left:0;
+padding-right:0}
+
+.error404 .error404-widgets
+{display:block;
+margin:0;
+width:100%}
+
+.home.is-singular .content-area,.single-format-image.has-post-thumbnail .content-area
+{padding-top:2rem}
+
+.is-singular .entry-inner
+{margin-top:60px}
+
+.is-singular .entry-inner:after,.error404 .entry-inner:after,.page-template-eventbrite-index .page-header:after,.single-event .entry-header:after
+{height:30px;
+margin:-15px 0 0 -15px;
+width:30px}
+
+.is-singular .entry-inner:before,.page-template-eventbrite-index .page-header:before,.single-event .entry-header:before,.error404 .entry-inner:before
+{font-size:2rem;
+height:30px;
+line-height:30px;
+margin:-15px 0 0 -15px;
+width:30px}
+
+.is-singular:not(.eventbrite-archive) .entry-header h1,.error404 .entry-header h1,.page-header h1,.page-template-eventbrite-index .page-header h1,.single-event .entry-header h1
+{font-size:3rem}
+
+.is-singular.archive-eventbrite .entry-header h1
+{font-size:2.5rem}
+
+.page-header
+{border:0}
+
+.page-header h1
+{font-size:2.5rem;
+padding:2rem}
+
+.has-post-thumbnail .entry-meta .cat-links,body:not(.has-post-thumbnail) .entry-meta .cat-links,.is-singular.single-format-image .entry-meta .cat-links,.page.is-singular .edit-link,.is-singular .entry-posted,.is-singular:not(.home).page-template-eventbrite-index .entry-meta .cat-links
+{font-size:1.3rem !important}
+
+.is-singular .entry-content,.is-singular:not(.home) .entry-content,.is-singular.has-post-thumbnail:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .entry-content
+{padding-top:2rem}
+
+.is-singular .post-navigation .nav-links:before
+{left:25%;
+right:25%}
+
+.is-singular .post-navigation .nav-links span
+{font-size:1.2rem}
+
+.is-singular .post-navigation .nav-links a
+{font-size:1.4rem}
+
+ol.comment-list ol.children
+{padding-left:40px}
+
+ol.comment-list ol.children ol
+{padding-left:0}
+
+.widget-area .widget,.widget-area.widgets-two .widget,.widget-area.widgets-three .widget,.is-singular:not(.home) .widget-area .widget,.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .widget-area .widget,.has-post-thumbnail.is-singular:not(.home):not(.single-format-image):not(.page-template-eventbrite-index) .widget-area.widgets-three .widget,.is-singular.has-post-thumbnail:not(.home):not(.page-template-eventbrite-index) .widget-area .widget,.has-post-thumbnail.is-singular.single-format-image .widget-area .widget,.has-post-thumbnail.is-singular.single-format-image .widget-area .widget,.is-singular.single-format-image .widget-area .widget,.is-singular.single-format-image .widget-area .widget
+{float:none;
+width:100%}
+
+}
+
+@media only screen and (max-width:400px)
+{h1
+{font-size:3rem}
+
+.site-branding
+{padding-bottom:1.3rem;
+width:100%}
+
+.site-title,.site-branding .site-logo-link
+{display:block;
+padding:0;
+text-align:center}
+
+.site-branding .site-logo-link img
+{max-width:80%}
+
+.banner-custom-header .site-banner-header
+{padding:10px 0}
+
+.menu-toggle
+{margin:0 auto 10px;
+position:relative;
+right:auto;
+top:auto}
+
+#site-navigation
+{padding-bottom:1px}
+
+.posts-navigation div:nth-of-type(2)
+{margin-top:10px}
+
+.posts-navigation .nav-next,.posts-navigation .nav-previous
+{float:none}
+
+.is-singular:not(.eventbrite-archive) .entry-header,.has-post-thumbnail.is-singular:not(.home) .entry-header,.single-format-image.has-post-thumbnail .entry-header,.page.has-post-thumbnail.is-singular:not(.home) .entry-header,.page-template-eventbrite-index .page-header,.single-event .entry-header
+{padding:2em 0 0}
+
+.is-singular .entry-inner
+{margin-top:40px}
+
+.comment-author .avatar-container
+{display:none}
+
+.comment-body,ol.comment-list ol.children .comment-body
+{margin-left:0}
+
+}
