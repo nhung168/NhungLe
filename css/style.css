@@ -588,12 +588,11 @@ button:active {
   background: none;
 }
 .navbar-toggle button {
-  background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+  position:relative;
+  float:top;
 }
 
-.navbar .navbar-toggle:before {
-  display: none;
-}
+
 .navbar .navbar-form .btn {
   height: auto;
   line-height: 22px;
