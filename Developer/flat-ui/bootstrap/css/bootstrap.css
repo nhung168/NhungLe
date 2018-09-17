@@ -4507,17 +4507,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-toggle {
   position: relative;
   float: right;
-  padding: 9px 10px;
-  margin-top: 8px;
-  margin-right: 15px;
-  margin-bottom: 8px;
   background-color: transparent;
-  background-image: url("/Users/nhung/Documents/GitHub/NhungLe/Developer/common-files/icons/menu-icon.png") 50% no-repeat;
+  background-image: url("https://lh3.googleusercontent.com/5FUuMhzPSppGlc15U27aeUyxXsKhq_cda_YcTpuubiJACYC7CoHczDnCjsfvHnQJio7Xn2wgh3S8LHO_c2tAahdifh4OJUWYSlDoiioivievULH7_ILV0qDB5rHMFDU_7_X_7OZhH9KfITEIEhgnoefTeGeFL2QTxSqCIKy3iX5C0rSHVZJcDf5Y9309uABQBJ5O-JiO98oxs_1j6AUu7qIANkzKfrWw9HE3lHmP0ZyID6vpLEoDQ2LvR8n_7HuIUJIMammvfr1RL318fiaipvboRbK56VbLJjdF-4drrmsVPjud5GcoZmbmcV5wVjJF-wiGKsSw7FMVkRnRicjzeqg2GUpAW1gRswVn0EmFXqfEUQ4j2gyXp_mUauLHqRVVopRp8oPkXBIvMEfCY-v8mCbmVnjdycRBI41WSeIIHdig5kWO5pRzW8ct8ylv-kQ3uQquFyErVDx8d516YU4dN6ukcWwSK-IctBtkHvtNzIam3nh8snudnG1_A9rvecQ89Ak6fMFWqysFGcObK2wLvl0kt-IhG6xvc5z0utKnbj8d9tp7C6h5b0aFUrAjVjlKTLk3QYFFdAESShGAbAVoDZ0CnWMh6sjuNGzv-DuSVlumnTjsqnfZiP3Iq4HKGgt_KUByUEatdNNNBNwAYlnKcismFcx9H7YF-taKhmHUH7wnHswIvJtF5ICT=w17-h12-no");
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
-  border-radius: 0;
-  border: 1px solid transparent;
-  border-radius: 4px;
 }
 
 .navbar-toggle .icon-bar {

@@ -587,17 +587,10 @@ button:active {
 .navbar .nav > li > a:focus {
   background: none;
 }
-.navbar .navbar-toggle {
-  margin: 26px 0 10px;
-  color: white;
-  background: none;
-  padding: 0;
-  width: 30px;
-  height: 30px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+.navbar-toggle button {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
 }
+
 .navbar .navbar-toggle:before {
   display: none;
 }
