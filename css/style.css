@@ -2015,9 +2015,40 @@ text-align:center}
 .posts .entry-content
 {padding-top:2rem}
 
-div. a
-{font-size: 18.004px;
-text-indent: 30px;}
+/*  COLUMN SETUP  */
+.posts .entry-content.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.2%;
+}
+.posts .entry-content.col:first-child { margin-left: 0; }
+
+
+.posts .entry-content.span_3_of_3 {
+  width: 100%; 
+}
+
+.posts .entry-content.span_2_of_3 {
+  width: 66.13%; 
+}
+
+.posts .entry-content.span_1_of_3 {
+  width: 32.26%; 
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .posts .entry-content.span_3_of_3 {
+    width: 100%; 
+  }
+  .posts .entry-content.span_2_of_3 {
+    width: 100%; 
+  }
+  .posts .entry-content.span_1_of_3 {
+    width: 100%;
+  }
+}
 
 .link-more
 {font-weight:400;
