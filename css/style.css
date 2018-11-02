@@ -2020,10 +2020,15 @@ text-align:center}
 {padding-top:2rem}
 
 /*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.2%;
+}
 .col:first-child { 
   display: block;
   float:left;
-  margin: 1% 10% 1% 10%;}
+  margin: 1% 0 1% 1.6%;}
 
 .span_6_of_6 {
   width: 100%;
