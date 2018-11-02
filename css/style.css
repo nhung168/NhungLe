@@ -1890,9 +1890,11 @@ width:33.3333%}
 .posts .edit-link
 {position:absolute;
 text-align:center;
-top:1%;
+top:5%;
+left:10%;
 bottom:0;
-width:100%;
+right:5%;
+width:90%;
 z-index:5}
 
 .posts .has-post-thumbnail .edit-link
