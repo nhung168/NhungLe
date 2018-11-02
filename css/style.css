@@ -1890,7 +1890,8 @@ width:33.3333%}
 .posts .edit-link
 {position:absolute;
 text-align:center;
-top:12px;
+top:1%;
+bottom:0;
 width:100%;
 z-index:5}
 
@@ -2025,6 +2026,7 @@ text-align:center}
   float:left;
   margin: 1% 0 1% 1.2%;
 }
+
 .col:first-child { 
   display: block;
   float:left;
