@@ -383,6 +383,11 @@ var PageTransitions = function() {
     $inpage.attr('class', $inpage.data('originalClassList') + ' pt-page-current');
   }
 
+  function OpenInNewTabWinBrowser(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+
   return {
     init: init,
     gotoPage: gotoPage

@@ -43,6 +43,7 @@ h3,
 }
 h4,
 .h4 {
+  color: #159970 ;
   font-size: 23px /* 29px */;
 }
 h5,
@@ -341,7 +342,7 @@ footer {
 }
 body {
   overflow-x: hidden;
-  color: #7f8c8d;
+  color: #525A5A;
   line-height: 1.29;
 }
 @media (max-width: 767px) {
