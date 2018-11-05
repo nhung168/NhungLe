@@ -24,6 +24,12 @@ window.onclick = function(event) {
     }
 };
 
+function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+
+
 function fadedEls(el, shift) {
     el.css('opacity', 0);
 
@@ -53,7 +59,7 @@ function fadedEls(el, shift) {
         }
     });
 };
-
+ 
 
 (function($) {
     $(function() {

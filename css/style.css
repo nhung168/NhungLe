@@ -1894,10 +1894,22 @@ paper-card {
     z-index: 0;
 }
 
-.fb-comments {
-padding-left:8px
-padding-right:8px;}
+.fb-comments.fb_iframe_widget.fb_iframe_widget_fluid_desktop {
+    width: 1100px;
+    min-width: 220px;
+}
 
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+    /* width: 1100px; */
+    /* min-width: 220px; */
+}
+
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    padding: 40px;
+}
 
 :host {
     display: inline-block;
