@@ -44,15 +44,15 @@ h3,
 h4,
 .h4 {
   color: #159970 ;
-  font-size: 23px /* 29px */;
+  font-size: 28px /* 29px */;
 }
 h5,
 .h5 {
-  font-size: 21px /* 28px */;
+  font-size: 25px /* 28px */;
 }
 h6,
 .h6 {
-  font-size: 19px /* 24px */;
+  font-size: 23px /* 24px */;
 }
 h1,
 .h1,
@@ -561,6 +561,90 @@ button:focus,
 a:active,
 button:active {
   outline: none;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table td {
+    display: block;
+}
+
+.table th, .table th a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+}
+.table th {
+    color: white!important;
+    font-weight: bold!important;
+    height: inherit!important;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: 767px)
+.table-hover td {
+    width: 100%!important;
+}
+
+@media screen and (max-width: 767px)
+.table-responsive>.table-bordered {
+    border: 0;
+}
+@media screen and (max-width: 767px)
+.table-responsive>.table {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px)
+.table-hover {
+    width: 100%!important;
+}
+
+@media screen and (max-width: 767px)
+.table-responsive>.table-bordered>tbody>tr>td:last-child, .table-responsive>.table-bordered>tbody>tr>th:last-child, .table-responsive>.table-bordered>tfoot>tr>td:last-child, .table-responsive>.table-bordered>tfoot>tr>th:last-child, .table-responsive>.table-bordered>thead>tr>td:last-child, .table-responsive>.table-bordered>thead>tr>th:last-child {
+    border-right: 0;
+}
+
+@media screen and (max-width: 767px)
+.table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+    white-space: nowrap;
+}
+@media (max-width: 767px)
+.table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+    white-space: normal!important;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
 }
 
 .navbar {
