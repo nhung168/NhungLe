@@ -591,6 +591,27 @@ button:active {
     table-layout: fixed;
 }
 
+.table thead {
+    display:none;
+    background: #009688;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
 .table td {
     display: block;
 }
