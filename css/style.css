@@ -563,6 +563,21 @@ button:active {
   outline: none;
 }
 
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 767px)
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}
+
+
 .table-bordered {
     border: 1px solid #ddd;
 }
@@ -592,7 +607,7 @@ button:active {
     height: inherit!important;
 }
 
-tr {
+.table tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
