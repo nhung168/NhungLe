@@ -615,9 +615,6 @@ tbody {
     border-color: inherit;
 }
 
-.table td {
-    display: block;
-}
 
 .table th, .table th a {
     color: #666;
@@ -635,12 +632,6 @@ tbody {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
-}
-
-.table tr {
-    border-bottom: 1px solid #ddd;
-    display: block;
-    padding: 20px 0;
 }
 
 .table>thead>tr>th {
@@ -671,11 +662,6 @@ tbody {
 @media screen and (max-width: 767px)
 .table-responsive>.table {
     margin-bottom: 0;
-}
-
-@media (max-width: 767px)
-.table-hover {
-    width: 100%!important;
 }
 
 @media screen and (max-width: 767px)
