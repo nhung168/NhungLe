@@ -3430,3 +3430,20 @@ top:auto}
 {margin-left:0}
 
 }
+
+.post-layout-two-columns .post-wrapper .post-column {
+    width: 50%;
+}
+
+.post-layout-columns .post-wrapper .post-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 2em;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 80em)
+.post-layout-columns .post-wrapper .post-column {
+    padding-right: 1.5em;
+}
