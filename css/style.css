@@ -3175,6 +3175,13 @@ left:50%;
 margin:-4px 0 0 -40px;
 width:80px}
 
+.slide-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
 .post-slider-container {
     overflow: hidden;
 }
