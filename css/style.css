@@ -3431,6 +3431,15 @@ top:auto}
 
 }
 
+.post-layout-columns .post-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -2em;
+}
+
 .post-layout-two-columns .post-wrapper .post-column {
     width: 50%;
 }
