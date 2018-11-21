@@ -2282,6 +2282,66 @@ text-align:center}
   }
 }
 
+.slide-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.post-slider-container {
+    overflow: hidden;
+}
+
+.type-page{
+    margin: 0 0 2em;
+    padding: 1.5em;
+    background: #fff;
+    border-top: 3px solid #57bb8a;
+    box-shadow: 0 2px 2px #aaa;
+    max-width: 100%;
+    width: 100%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.post-slider, .zeeflexslider .zeeslides {
+    zoom: 1;
+}
+.zeeflexslider {
+    margin: 0;
+    padding: 0;
+}
+
+.post-slider-wrap {
+    position: relative;
+}
+
+.post-slider, .zeeflexslider .zeeslides {
+    zoom: 1;
+}
+
+.zeeslides, .zeeslides>li, .zeeflex-control-nav, .zeeflex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+@media only screen and (max-width: 80em){
+.page-header, .type-post, .type-page, .type-attachment, .post-pagination, .comments-area {
+    margin-bottom: 1.5em;
+}
+}
 
 .link-more
 {font-weight:400;
@@ -3174,67 +3234,6 @@ top:-10px}
 left:50%;
 margin:-4px 0 0 -40px;
 width:80px}
-
-.slide-container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 2em;
-}
-
-.post-slider-container {
-    overflow: hidden;
-}
-
-.type-post, .type-page, .type-attachment, .comments-area {
-    margin: 0 0 2em;
-    padding: 1.5em;
-    background: #fff;
-    border-top: 3px solid #57bb8a;
-    box-shadow: 0 2px 2px #aaa;
-    max-width: 100%;
-    width: 100%;
-    word-wrap: break-word;
-    box-sizing: border-box;
-}
-
-.post-slider, .zeeflexslider .zeeslides {
-    zoom: 1;
-}
-.zeeflexslider {
-    margin: 0;
-    padding: 0;
-}
-
-.post-slider-wrap {
-    position: relative;
-}
-
-.post-slider, .zeeflexslider .zeeslides {
-    zoom: 1;
-}
-
-.zeeslides, .zeeslides>li, .zeeflex-control-nav, .zeeflex-direction-nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-ul, menu, dir {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-@media only screen and (max-width: 80em){
-.page-header, .type-post, .type-page, .type-attachment, .post-pagination, .comments-area {
-    margin-bottom: 1.5em;
-}
-}
 
 .slider-nav
 {display:none !important}
