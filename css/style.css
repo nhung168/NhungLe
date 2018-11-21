@@ -596,12 +596,11 @@ button:active {
 }
 
 .table thead {
-    display:none;
+    display: table-header-group;
     background: #009688;
 }
 
 thead {
-    display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
     border-top-color: inherit;
