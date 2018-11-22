@@ -580,7 +580,7 @@ button:active {
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
 }
-
+}
 
 .table-bordered {
     border: 1px solid #ddd;
@@ -749,6 +749,7 @@ tbody {
     float: none;
   }
 }
+
 .header-19 .navbar-collapse.collapse,
 .header-16 .navbar-collapse.collapse {
   display: none !important;
@@ -2363,7 +2364,7 @@ ul, menu, dir {
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 80em)wrapper{
+@media only screen and (max-width: 80em){
 .post-layout-columns .post-wrapper .post-column {
     padding-right: 1.5em;
 }
@@ -2821,11 +2822,11 @@ padding:0}
 
 
 
-@media only screen and (max-width:1600px){}
+@media only screen and (max-width:1600px){
 .site-banner-header
 {left:15%;
 right:15%}
-
+}
 
 .site-banner-media,.site-banner .site-banner-thumbnail
 {padding-bottom:40%}
