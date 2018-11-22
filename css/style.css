@@ -1025,7 +1025,7 @@ section * {
   color: #bdc3c7;
 }
 .header-10 .navbar .navbar-form {
-  padding: 19px 0 19px 60px;
+  padding: 1.1em 1.1em 0.1em 1.1em;
 }
 .header-10 .navbar .btn {
   padding-left: 26px;
@@ -1038,7 +1038,7 @@ section * {
   font-weight: 500;
 }
 .header-10 .navbar .navbar-toggle {
-  padding: 19px 0 19px 60px;
+  padding: 1em 0em 0em 39%;
 }
 
 
