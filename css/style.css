@@ -573,7 +573,7 @@ button:active {
 }
 
 @media screen and (max-width: 767px)
-.table-responsive {
+{.table-responsive {
     width: 100%;
     margin-bottom: 15px;
     overflow-y: hidden;
@@ -656,22 +656,25 @@ tbody {
 }
 
 @media screen and (max-width: 767px)
-.table-responsive>.table-bordered {
+{.table-responsive>.table-bordered {
     border: 0;
 }
+}
 @media screen and (max-width: 767px)
-.table-responsive>.table {
+{.table-responsive>.table {
     margin-bottom: 0;
 }
-
-@media screen and (max-width: 767px)
-.table-responsive>.table-bordered>tbody>tr>td:last-child, .table-responsive>.table-bordered>tbody>tr>th:last-child, .table-responsive>.table-bordered>tfoot>tr>td:last-child, .table-responsive>.table-bordered>tfoot>tr>th:last-child, .table-responsive>.table-bordered>thead>tr>td:last-child, .table-responsive>.table-bordered>thead>tr>th:last-child {
-    border-right: 0;
 }
 
+@media screen and (max-width: 767px)
+{.table-responsive>.table-bordered>tbody>tr>td:last-child, .table-responsive>.table-bordered>tbody>tr>th:last-child, .table-responsive>.table-bordered>tfoot>tr>td:last-child, .table-responsive>.table-bordered>tfoot>tr>th:last-child, .table-responsive>.table-bordered>thead>tr>td:last-child, .table-responsive>.table-bordered>thead>tr>th:last-child {
+    border-right: 0;
+}
+}
 @media (max-width: 767px)
-.table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+{.table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
     white-space: normal!important;
+}
 }
 
 .navbar {
@@ -1562,11 +1565,7 @@ hr {
     display: table;
 }
 
-mc_embed_signup {
-  background:#fff; 
-  clear:left; 
-  font:14px Helvetica,Arial,sans-serif;
-}
+
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
@@ -2343,6 +2342,61 @@ ul, menu, dir {
 }
 }
 
+.post-layout-columns .post-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -2em;
+}
+
+.post-layout-two-columns .post-wrapper .post-column {
+    width: 50%;
+}
+
+.post-layout-columns .post-wrapper .post-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 2em;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 80em)wrapper{
+.post-layout-columns .post-wrapper .post-column {
+    padding-right: 1.5em;
+}
+}
+
+.post-layout-columns .post-wrapper .post-column article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 80em)
+{.widget, .page-header, .type-post, .type-page, .type-attachment, .post-pagination, .comments-area {
+    margin-bottom: 1.5em;
+}
+}
+
+.type-post, .type-page, .type-attachment, .comments-area {
+    margin: 0 0 2em;
+    padding: 1.5em;
+    background: #fff;
+    border-top: 3px solid #009688;
+    box-shadow: 0 2px 2px #aaa;
+    max-width: 100%;
+    width: 100%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
 .link-more
 {font-weight:400;
 text-align:center}
@@ -2396,32 +2450,6 @@ width:100%}
 
 .posts .hentry:not(.has-post-thumbnail) .entry-inner
 {width:100%}
-
-.post-layout-columns .post-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -2em;
-}
-
-.post-layout-two-columns .post-wrapper .post-column {
-    width: 50%;
-}
-
-.post-layout-columns .post-wrapper .post-column {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-right: 2em;
-    box-sizing: border-box;
-}
-
-@media only screen and (max-width: 80em)
-.post-layout-columns .post-wrapper .post-column {
-    padding-right: 1.5em;
-}
 
 .posts .hentry:not(.has-post-thumbnail):before
 {border-top:1px solid #d8dfe6;
@@ -2793,10 +2821,11 @@ padding:0}
 
 
 
-@media only screen and (max-width:1600px)
+@media only screen and (max-width:1600px){}
 .site-banner-header
 {left:15%;
 right:15%}
+
 
 .site-banner-media,.site-banner .site-banner-thumbnail
 {padding-bottom:40%}
