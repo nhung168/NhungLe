@@ -2190,7 +2190,9 @@ text-align:center}
 .col {
   display: block;
   float:left;
-  margin: 1% 0 1% 1.2%;
+  margin: 1% 0 1% 1.2%
+  padding: 1.5em;
+;
 }
 
 .col:first-child { 
@@ -2391,7 +2393,6 @@ ul, menu, dir {
     padding: 1.5em;
     background: #fff;
     border-top: 3px solid #009688;
-    box-shadow: 0 2px 2px #aaa;
     max-width: 100%;
     width: 100%;
     word-wrap: break-word;
@@ -2399,7 +2400,9 @@ ul, menu, dir {
 }
 
 .link-more
-{font-weight:400;
+{display:inline-block;
+
+  font-weight:400;
 text-align:center}
 
 .link-more a
