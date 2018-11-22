@@ -2188,17 +2188,28 @@ text-align:center}
 
 /*  COLUMN SETUP  */
 .col {
-  display: flex;
-  float: inherit;
-  margin: 1% 0 1% 1.2%;
-  padding: 1.5em;
-;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.2%
 }
 
 .col:first-child { 
   display: block;
   float:left;
   margin: 1% 0 1% 1.6%;}
+
+.col-thumbnail {
+    display: flex;
+    float: inherit;
+    margin: 1% 0 1% 1.2%;
+    padding: 1.5em;
+}
+
+.col-thumbnail:first-child {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
 
 .span_6_of_6 {
   width: 100%;
@@ -2258,6 +2269,7 @@ text-align:center}
     display:block;
     margin: 0% 0 0% 0%; 
     padding:5%; }
+
   .span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
   .span_8_of_8 {
     width: 100%; 
