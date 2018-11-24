@@ -1844,10 +1844,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   line-height: 53px;
 }
 .navbar-toggle:before {
-  color: #16a085;
+  color: #D25605;
   content: "\e00c";
   font-family: "Flat-UI-Icons";
-  font-size: 22px;
+  font-size: 40px;
   font-style: normal;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
