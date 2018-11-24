@@ -18,7 +18,7 @@ textarea {
   font-size: 14px;
 }
 a {
-  color: #16a085;
+  color: #990000;
   text-decoration: none;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
@@ -26,7 +26,7 @@ a {
   transition: 0.25s;
 }
 a:hover {
-  color: #1abc9c;
+  color: #990000;
   text-decoration: none;
 }
 h1,
@@ -171,7 +171,7 @@ blockquote:before {
   margin: 24px 0;
 }
 .text-primary {
-  color: #1abc9c;
+  color: #990000;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -234,7 +234,7 @@ footer {
   background-color: #000000;
 }
 .bg-turquoise {
-  background-color: #1abc9c;
+  background-color: #990000;
 }
 .bg-green-sea {
   background-color: #16a085;
@@ -297,7 +297,7 @@ footer {
   background-color: #34495e;
 }
 .bg-firm {
-  background-color: #1abc9c;
+  background-color: #990000;
 }
 .bg-success {
   background-color: #2ecc71;
@@ -2411,7 +2411,7 @@ ul, menu, dir {
 .link-more
 {   font-weight: 400;
     text-align: center;
-    background-color: #16a085;
+    background-color: #7A0000;
     color: #fff;
     display: inline-block;
     font-size: 1.4rem;
