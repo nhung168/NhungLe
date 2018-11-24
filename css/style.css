@@ -526,7 +526,7 @@ h5,
 h6,
 .h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #2c3e50;
+  color: #4E0000;
 }
 h1 {
   font-weight: normal;
@@ -597,7 +597,7 @@ button:active {
 
 .table thead {
     display: table-header-group;
-    background: #009688;
+    background: #990000;
 }
 
 thead {
@@ -2401,7 +2401,7 @@ ul, menu, dir {
     margin: 0 0 2em;
     padding: 1.5em;
     background: #fff;
-    border-top: 3px solid #009688;
+    border-top: 3px solid #990000;
     max-width: 100%;
     width: 100%;
     word-wrap: break-word;
