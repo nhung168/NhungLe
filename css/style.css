@@ -907,7 +907,7 @@ section * {
 .background {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 11%;
   right: 0;
   bottom: 0;
   z-index: 1;
