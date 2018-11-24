@@ -261,7 +261,7 @@ footer {
   background-color: #34495e;
 }
 .bg-midnight-blue {
-  background-color: #2c3e50;
+  background-color: #117668;
 }
 .bg-sun-flower {
   background-color: #f1c40f;
@@ -1918,12 +1918,11 @@ hr {
   }
 }
 .header-10-sub .background {
-  background-image: url("https://photo-cdn.icons8.com/assets/previews/994/e751598b-a61b-4d8f-b0cd-8b3aed6360a71x.jpg");
-  background-size:     cover;
-  height: 128vh;
-  opacity: 10;
-  filter: alpha(opacity=1000);
-
+    background-image: url(https://lh3.googleusercontent.com/BOJdBoW1FaBjRu7Bsk8rv9bT_rWFvZzAfoPWTZyZs…KGXygufEbMtNB8fHPiEKcMXZnEd9VlNdbUpa9u7T9aMu_ITEWC2NLIQzMm1OpZcFFw=s581-no);
+    background-size: contain;
+    height: 81vh;
+    opacity: 4;
+    background-color: #117668;
 }
 
 .header-10 {
