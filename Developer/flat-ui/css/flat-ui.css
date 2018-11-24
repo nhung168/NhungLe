@@ -1837,7 +1837,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 .navbar-toggle {
   border: none;
-  color: #34495e;
+  color: #BD5C5C;
   margin: 0 0 0 21px;
   padding: 0 21px;
   height: 53px;
@@ -1847,7 +1847,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   color: #D25605;
   content: "\e00c";
   font-family: "Flat-UI-Icons";
-  font-size: 40px;
+  font-size: 25px;
   font-style: normal;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
