@@ -971,6 +971,8 @@ section * {
  * Header 10 stylesheet  
  * */
 .header-10 {
+  position: fixed;
+  top:0;
   z-index: 100;
   width: 100%;
   padding-top: 0;
@@ -980,10 +982,10 @@ section * {
   color: white;
 }
 .header-10 .navbar {
-  position: absolute;
+  position: fixed;
   z-index: 2;
   top: 0;
-  margin: 0;
+  margin: 7px;
 }
 .header-10 .navbar .brand {
   padding-top: 25px;
