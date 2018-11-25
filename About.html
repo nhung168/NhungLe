@@ -38,28 +38,15 @@
                             </div>
                     </div>
                 </div>
-            </header>
-     <body onload="initViz();">
-            </body>      
-    </head>
+            </header>                   
+    </body>  
+   
+ <div class='tableauPlaceholder' id='viz1543135773804' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LeHongNhung-CV&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='LeHongNhung-CV&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LeHongNhung-CV&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>               
 
-         
-  <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-            <script type="text/javascript">
-            function initViz() {
-                var containerDiv = document.getElementById("vizContainer"),
-                    url = "https://public.tableau.com/views/LeHongNhung-CV-V2/CV?:embed=y&:display_count=yes",
-                    options = {
-                        hideTabs: true,
-                        onFirstInteractive: function () {
-                            console.log("Run this code when the viz has finished loading.");
-                        }
-                    };
-                
-                // Create a viz object and embed it in the container div.
-                var viz = new tableau.Viz(containerDiv, url, options); 
-            }
-</script>
+
+ 		
+
+
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="Developer/common-files/js/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"196276fe57cf1dc27cd454d7c","lid":"82978b5514","uniqueMethods":true}) })</script>
@@ -71,4 +58,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="Developer/samples/sample-04/js/jquery.backgroundvideo.min.js"></script>
         <script src="Developer/samples/sample-04/js/script.js"></script>
+        <script type='text/javascript'>                    
+ 		var divElement = document.getElementById('viz1543135773804');                    
+ 		var vizElement = divElement.getElementsByTagName('object')[0];
+
+ 		vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        if ($(window).width() < 767) {vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*1.75)+'px';}               
+ 		var scriptElement = document.createElement('script');                    
+ 		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+ 		vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 </html>
