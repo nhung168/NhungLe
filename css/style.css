@@ -198,6 +198,7 @@ blockquote:before {
 .text-primary {
   color: #990000;
 }
+
 a.text-primary:hover,
 a.text-primary:focus {
   color: #15967d;
