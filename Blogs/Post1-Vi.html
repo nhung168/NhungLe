@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mande Tools for All </title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="shortcut icon" href="../../../Developer/flat-ui/images/favicon.ico">
+        <link rel="stylesheet" href="../../../Developer/flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="../../../Developer/flat-ui/css/flat-ui.css">
+        <!-- Using only with Flat-UI (free)-->
+        <link rel="stylesheet" href="../../../Developer/common-files/css/icon-font.css">
+        <!-- end -->
+        <link rel="stylesheet" href="../../../css/style.css">
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+            <!-- header-10 -->
+            <header class="header-10">
+                <div class="container">
+                    <div class="navbar" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle"></button>
+                            <a class="brand" href="../../../index-VI.html">NhungLe</a>
+                         </div>
+                            <div class="collapse navbar-collapse pull-right">
+                                <ul class="nav pull-left">
+                                    <li class="active"><a href="../../../index-VI.html">Trang Chủ</a></li>
+                                    <li class = "nav-visible"><a href="../../../About-VI.html">Về Tôi</a></li>
+                                    <li><a href="../../../Tools-VI.html">Công Cụ</a></li>
+                                    <li><a href="../../../Tutorials-VI.html">Hướng Dẫn</a></li>
+                                </ul>
+                                <form class="navbar-form pull-right">
+                                    <a class="btn btn-info" href="https://nhungleh.com/EN/Tutorials/Post3-En.html">EN</a>
+                                </form>
+                            </div>
+                    </div>
+                </div>
+            </header>
+<div class="site-inner">
+        
+        <div id="content" class="site-content">
+
+    <main id="primary" class="content-area" role="main">
+
+        
+            
+<article id="post-3" class="post-3 post type-post status-publish format-image has-post-thumbnail hentry category-VBA tag-SaleManager post_format-post-format-image">
+    
+
+    <div class="entry-inner" style="margin-top:80px;">
+
+        <header class="entry-header">
+            <div class="entry-meta">
+            </div><!-- .entry-meta -->
+
+            <h1 class="entry-title" style ="text-align:center">Hướng dẫn 
+                <br/>Tạo Công Cụ Báo Cáo Awesome Table từ Cơ Bản – Nâng Cao 
+                <br/>(Phần 1)</h1>
+            <div class="entry-posted" style ="text-align:center">
+                <div class="posted-info"><span class="byline">Posted by <span class="author vcard"><a class="url fn n" href="https://nhungleh.com">Nhung Le</a></span></span><span class="posted-on"> <span class="date-published-word">on</span> <a href=".." rel="bookmark"><time class="entry-date published" datetime="2018-11-13">Nov 13, 2018</time><time class="updated"></time></a></span></div>         </div><!-- .entry-posted -->
+        </header><!-- .entry-header -->
+    <div class="entry-content">
+        <div class="col span_1_of_6"></div> 
+        <div class="col span_4_of_6">
+
+<h4 style='text-align:justify'>Phần 1: Cơ bản</span></h4>
+                <p style='text-align:justify'>Như bài viết <a onclick="OpenInNewTab('https://nhungleh.com/VI/Tools/Post3-Vi.html')"></a>trước đã đề cập tính năng của Awesome Table trong việc trình bày xử lý dữ liệu. Tuy nhiên vì sao phải trình bày dữ liệu, trình bày dữ liệu là gì thì cần bắt đầu hiểu một cách hệ thống về quy trình xử lý. Đó là bạn bắt đầu với việc đi chợ mua nguyên liệu (thu thập số liệu) sau đó chế biến (xử lý số liệu đó) và cuối cùng là trình bày nó cho thực khách của bạn. Trình bày món ăn cũng như bạn trình bày xử lý số liệu vậy. Quy trình xử lý dữ liệu được thể hiện như hình minh hoạ: </p>
+
+                 <p style="text-align:center;"> <img src="https://lh3.googleusercontent.com/dqcpjW-5sqoilJEliM6tfdy59q_guaL-1m88upSn2BmBbdN6WYTurKbtn9oyIWfXLK5Xd05mskNKrRBaygGIEMqkLgdAV50R9G9eVTEkvzG3kHEqvgVLA6inTJ88aHKfing0ERcVxANcENIQZ_ek6jgWtx7pavBMNijFPAcQUOuGSYd64Z5FRPSuvuCw3A5Q2rdkMknOy3tISAheuZgToUYBjw03dC7D__9AJEMIDEeSx6apRVa2KRcK8j_zygszpp1e6MRupqiXegsybY0w9ZbgbVqwp2il1B1YuSE0dOMCUZ3JdtOXLa-oQ5OjjeU2GWTtC4f2sqoS81TWRiD7hkSecNc95IkUCLGr_IVR0h6VXPqgndjEeHgupx6A09Pb6Bttf0tMHpZqHUSigicVRdZ-QnHrZynL2tCmp6IwOlyy0m2lzFIfvKiyiR_Y2YDj92z6sSkZkTfPsF0Ka_zPENItueKSiaRlXK9WD_O-sUpw3a3iFv_5fa5NkoNaDrmtNByINLLnxrlb_WK0dv6pBpLWNGfC71dgedDEzjZraND33k-SrMpRLHcXCqQlgijtjwwsZNTWxVjOzI_VvIhpqF2BHnPZUfSRQclyxHW0n-Gighjw5Nv8B_cVaah5ybTzKdKhw-tyh7Y5TVbRdl5cT0NEbiy60Y145DtrsctBG5mjoQ2sU8q3VFV1Gpx3JhmV8RIbSd6Ieg6gY46XRxklunK8pPfyvdeXuMW5BA=w638-h479-no" width="600" height="375" alt=""></p>
+
+                <p style='text-align:justify'>&nbsp;</p>
+
+                <p style='text-align:justify'>Awesome Table giúp bạn nấu món ăn đó và trình bày món ăn đó cũng như tương tác với nó. Có nghĩa là bạn cũng có thể nghịch với sản phẩm cuối được tạo ra phục vụ cho các việc khác nhau: lọc trong kho dữ liệu, thống kê số liệu v.v theo mục đích công việc của bạn quản lý dự án, kinh doanh sản phẩm online, v.v</p>
+
+              
+                <h5 style='text-align:justify'>Vậy tại sao lại dùng Awesome Table thay vì có nhiều giải pháp khác?</h5>
+
+                <p style='text-align:justify'>Có rất nhiều các công nghệ đang giúp việc xử lý phân tích và trình bày số liệu, dễ kể nhất là excel. Ngoài ra có nhiều công nghệ khác nổi tiếng dùng trong việc phân tích hình hoá trình bày dữ liệu như Tableau, Fusion Charts, D3.js. Những công nghệ vừa kể đến đều sử dụng cho việc phân tích trình bày dữ liệu lớn, trong khi đó Awesome Table là đưa ra các mẫu biểu mang mục đích ‘mỳ ăn liền’ (catalogue sản phẩm, thư viện sách, bản đồ khu vực). Nghĩa là Awesome Table có các dạng mẫu mà trong đó đã có sẵn các code để giúp bạn trình bày lại dữ liệu thay vì các công cụ kia bạn sẽ phải học sâu thêm về cách trình bày dữ liệu như nào. Lưu ý, Awesome Table giúp bạn trình bày lại các bảng biểu (display data) còn các công nghệ kia sẽ giúp bạn phân tích, hình hoá (visualize data) chuyên sâu hơn với dữ liệu lớn. (Bài viết cho việc phân tích sẽ được đề cập trong các bài viết sắp tới của mình.)</p>
+
+                <p style='text-align:justify'>&nbsp;</p>
+
+                <p style='text-align:justify'>Vậy vì sao mình lại giới thiệu Awesome Table? Vì nó đơn giản có thể áp dụng nhanh cụ thể trong các trường hợp cụ thể (làm website bán hàng, giới thiệu sản phẩm, quản lý lớp học). Đối với những người a ma tơ ko phải dân công nghệ IT như mình, awesome table vừa đủ để bạn tạo dựng một trang riêng mà không cần biết nhiều về lập trình. </p>
+
+                <p style='text-align:justify'>&nbsp;</p>
+
+                 <p style='text-align:justify'>Kể một chút về sự amateur của mình, mình đã từng không biết về lập trình. Xuất thân là dân học kinh tế và cho đến lúc làm việc mình mới bắt đầu học lại các thứ từ đơn giản nhất.  Mình biết đến awesome table khi nghiên cứu về việc trình bày thông tin để giải quyết vấn đề công việc mình gặp phải. Đó là thông tin trên các trang báo cáo dự án đều quá dài quá khó nhìn và lúc đó Awesome Table giải quyết nhanh những vấn đề về công nghệ của mình mà không mất quá nhiều thời gian học code. Cái từ Awesome Table đúng như nghĩa của nó. Nó giúp bạn trình bày lại trên những bảng biểu được minh hoạ bắt mắt hơn thay vì những số liệu nhàm chán Và mình bắt đầu với những thứ đơn giản như Awesome Table sau đó mình học thêm những kiến thức khác về phân tích trình bày dữ liệu và dần dần đi sâu vào hơn với các công nghệ khác phức tạp hơn.</p>
+
+                <p style='text-align:justify'>&nbsp;</p>
+
+                <p style='text-align:justify'>Vậy bắt đầu thử nấu món ăn đầu: </p>
+                <h5 style='text-align:justify'>Công cụ báo cáo đơn giản</h5>
+
+                <h6 style='text-align:justify'>Bước 1: Chuẩn Bị Nguyên liệu</h6>
+
+                <p style='text-align:justify'>Nguyên liệu quan trọng nhất mà Awesome Table bạn cần là 1 bảng tính Google Sheet. Google Sheet đã quen thuộc với nhiều người vì nó là một ứng dụng thay thế cho Excel và giúp bạn có thể chỉnh sửa, làm việc chung với nhiều người trên cùng 1 trang. Đối với các bạn nhập môn, việc bạn cần làm là đăng nhập vào Google Drive chọn Create >> Google sheet </p>
+
+                <p style='text-align:justify'>Tạo một trang báo cáo với các trường thông tin bạn cần theo Cột. Một Mẫu đơn giản báo cáo hoạt động mình làm bao gồm:
+                    <br/> - Project Name: Tên dự án
+                    <br/> -   Activity Name: Tên hoạt động
+                    <br/> -   Start Date: Ngày bắt đầu hoạt động
+                    <br/> -   Finish Date: Ngày kết thúc hoạt động
+                    <br/> -   Status: Trạng thái (đối với dòng trạng thái bạn nên tạo thêm 1 dropdown list bằng cách bôi đen cột) chọn Data Validation và thêm các trạng thái như: Not-yet-started, On-going, Delay, Finish)
+                    <br/> -   Reporting Person: Người báo cáo
+                    <br/> -   % Progress: Tiến độ
+                    <br/> -   Progress description: Miêu tả tiến độ
+                    <br/> -   Lesson learnt: Bài học kinh nghiệm
+                    <br/> -   Lesson learnt: Bài học kinh nghiệm
+                </p>
+
+                <p style='text-align:justify'>&nbsp;</p>
+
+                 <p style="text-align:center;"> <img src="https://lh3.googleusercontent.com/AOSejFXuNM6yjSK-P-awp0LVf4hrwl-JZnHti_MRzW1XdRnEqAnVnPQCHu-7h8NvF_vrvkVi9Wt4UDVfeKV61PYigmLuTs8ff4nyWFRZbx-ROhhPXRV7xmWFJjsIa-rir9-wmo1_mdna4Typ5Fuq9ghhcu9VClMRgRvG8Su1AnY2xvpSRjQLTODVgRHVE4s2d-S8WB7LiiO_cTQEni--aUsITWTCStXP5JWATe7Xp4T1igQZbskO9C_Ox5uqndu6IHRa3GuiVIpxgIhUiaHqbs8Ck3Ib-mU4Nk7gHe8RJ92Hc_Zmfz9fiSttnPJP83L2Kkj_SLPwLf1x320snoaNj-81cmd2oJYF7dr7VOQxi52XXyXoGG5c6R_WCifc516CzhrmPsTmtEmywXqngQ4wAYM2zW5XX3x-WJktXNMxs58mk5LEVnA7tRhGowI-T4krBit-cdR9PXzXmrCmWnvkWyuP0W2xN2fGbsI4q5nE49ACI1k3tM2riwcrt2Fckl1wHYN3zQlwY8YRT7dutsZ6xMgB1BoSCprf-BDj2hvs01C-1HXhRlAMSO2eyloS22_J-TA8lEKEkNQLNpH8WFfe4eXdv58-mD6SdkEKt_s67mRbYlPoOkbydKrqrhxkra7S3SrLS2Z96bw7hER67hlPPDo29lPPqNRpsQ-5u3oGojuhRTfTNRSoHKsS1V5X2k0tiJNryc4x3VaPDdefON7Jc-yBoqKy0OLeK2DOEA=w1040-h246-no" width="100%" alt=""></p>
+
+                  <p style='text-align:justify'>Để xem ví dụ bạn có thể vào đây </p>
+
+                  <h6 style='text-align:justify'>Bước 2: Nấu – Processing</h6>
+                  <h6 style='text-align:justify'>Lọc dữ liệu</h6>
+                  <p style='text-align:justify'>Đến bước này bạn cần hình dung một chút vào thông tin mà bạn đang có trong tay:</p>
+                    <br/> - Project Name: Tên dự án
+                    <br/> -   Activity Name: Tên hoạt động
+                    <br/> -   Start Date: Ngày bắt đầu hoạt động
+                    <br/> -   Finish Date: Ngày kết thúc hoạt động
+                    <br/> -   Status: Trạng thái (đối với dòng trạng thái bạn nên tạo thêm 1 dropdown list bằng cách bôi đen cột) chọn Data Validation và thêm các trạng thái như: Not-yet-started, On-going, Delay, Finish)
+                    <br/> -   Reporting Person: Người báo cáo
+                    <br/> -   % Progress: Tiến độ
+                    <br/> -   Progress description: Miêu tả tiến độ
+                    <br/> -   Lesson learnt: Bài học kinh nghiệm
+                    <br/> -   Lesson learnt: Bài học kinh nghiệm
+                </p>
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered" style="width:100%;">
+                <thead>
+                <tr>
+                <th style="width: 20%; text-align: left;">Tên trường thông tin
+                </th>
+                <th style="width: 20%; text-align: left;">Loại
+                </th>
+                <th style="text-align: left;">Ghi Chú
+                </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="width: 20%">
+                    Project Name</td>
+                    <td style="width: 20%">String hoặc Category</td>
+                    <td>Thường tên dự án sẽ có 1 list danh sách các dự án vậy nên bạn nên tạo
+                    ra một Category list cho các dự án tại sheet của mình ( Cách tạo: chọn cột
+                    Project Name, Vào phần Data, Data Validation, Chọn item trong danh sách và
+                    list ra các tên dự án)</td>
+                </tr>
+                <tr>
+                    <td style="width: 20%">Activity Name</td>
+                    <td style="width: 20%">String</td>
+                    <td>Tên các hoạt động thường tuỳ thuộc vào dự án và người thực hiện nên
+                    không cố định tên nên mình để dạng string cho loại tên</td>
+                   </tr>
+                   <tr>
+                    <td style="width: 20%">Start Date</td>
+                    <td style="width: 20%">Date</td>
+                    <td><o:p>&nbsp;</o:p></span></td>
+                   </tr>
+                   <tr>
+                    <td style="width: 20%">Finish Date</td>
+                    <td style="width: 20%">Date</td>
+                    <td><o:p>&nbsp;</o:p></span></td>
+                   </tr>
+                   <tr>
+                    <td style="width: 20%">Status</td>
+                    <td style="width: 20%">Category</td>
+                    <td>Giống như Project Name bạn nên có một list các status như
+                    not-yet-started, on-going, delay, finish</td>
+                   </tr>
+                   <tr>
+                    <td style="width: 20%">Reporting Peson</td>
+                    <td style="width: 20%">String hoặc Category</td>
+                    <td><o:p>&nbsp;</o:p></span></td>
+                   </tr>
+                   <tr>
+                    <td style="width: 20%">% Progress</td>
+                    <td style="width: 20%">Number</td>
+                    <td><o:p>&nbsp;</o:p></span></td>
+                   </tr>
+                   <tr>
+                    <td style="width: 20%">Progress Description</td>
+                    <td style="width: 20%">String</td>
+                    <td><o:p>&nbsp;</o:p></span></td>
+                   </tr>
+                   <tr>
+                    <td style="width: 20%">Lesson Learnt</td>
+                    <td style="width: 20%">String</td>
+                    <td><o:p>&nbsp;</o:p></span></td>
+                   </tr>
+                </tbody>
+                </table>
+            </div>
+
+                <p style='text-align:justify'>Việc hình dung xác định các thông tin mình đang có phục vụ cho việc bạn sẽ xác định loại thông tin mình cần tìm kiếm trên thanh tìm kiếm. Awesome Table cho phép các loại tìm kiếm như sau</p>
+                <p style='text-align:justify'>&nbsp;</p>
+                <h6>StringFilter</h6>
+                <p>Lọc dữ liệu với giá trị tên cụ thể</p>
+                <h6>DateFilter</h6>
+                <p>Lọc theo ngày</p>
+                <h6>CategoryFilter</h6>
+                <p>Lọc theo danh mục cụ thể trong danh sách</p>
+                <h6>NumberRangeFilter</h6>
+                <p>Lọc theo giá trị số trong cột</p>              
+                <h6>DateFilter</h6>
+                <p>Lọc theo giá trị ngày</p>
+                <h6>csvFilter</h6>
+                <p>Lọc nhiều giá trị trong danh mục cùng lúc</p>
+                <h6>Dependent Category Filter</h6>
+                <p>Lọc các giá trị liên quan đến cột giá trị phụ thuộc</p>
+
+                <p style='text-align:justify'>Việc hình dung xác định các thông tin mình đang có phục vụ cho việc bạn sẽ xác định loại thông tin mình cần tìm kiếm trên thanh tìm kiếm. Awesome Table cho phép các loại tìm kiếm như sau</p>
+
+                <p style='text-align:justify'>Đọc thêm bài hướng dẫn từ <a href="https://support.awesome-table.com/hc/en-us/articles/115001068189-All-filters-you-can-add-on-a-view"><span style='color:windowtext;text-decoration:none;text-underline:none'>Awesome Table</span></a></p>
+
+                <p style='text-align:justify'>Trong các thông tin hiện có, bạn có thể chọn một trong các dạng filter được nhắc đến để lựa chọn loại lọc phù hợp. Mình chọn các loại lọc như sau:</p>
+
+                <p style="text-align:center;"><img src="https://lh3.googleusercontent.com/BijtRNfeAI2YzvRE3EReIvmNUWqHRdHNHoAQAo2AOpTmKgOFEKLx6ncMsdnoIUMOyYLBykksJL_SNF6Vlkfm7OwLA4mgqAeNi6F2Vy2HQmkoOFl-3mvvt2zFnQ9rfcFPg8tEqjI3PXl0YTkPK80XNT19TnZUQ8j5g-qFntA8uzF8bWFcsQo0cM6BExdFyIvNeOXQ77jS5rrAMo9JWU_KQ78akwCZPqkl42-PVrfKqaWajBJe7CHjGSPUYxRVXQ3TmHnlKjksUMywLmMQH_0ro1ALHM3V9YJRQkXI6QH7MrxPnk269lSoIz4l7DtylRNj5g4LOWcHosJV5TNbqwTVGR_gQbqMC2K7_xEAwfEm9b-xikiAyjluF_rzYqRsiNaqeIsy4l0D6KiJtEzaBZBqvfpDjlvCt0JSw13Ki231zRmIFmhuXEiUreDr15lgfs5P8bsexGIsa3kS7hNGGQisyR3gvqfm_mXH1yAky0QnANFzHS1ZlJCTZ--6pMrU061obPxC8NCFJHVTeoaj1CstYrD3SSCu1UWgwSz_VnLFGp4Nw35efCxfTn8-n0V6qNgQibqwgqbNQk7LKSJhXOu-1dOeQDyFUw8BLdrdk4jNUwIqqvFLT8w9qNDOdHdmt2X2mHny-LoMh78XFHzbbqcyc17dcW40wXbcCKLTzFa4LBjw=w1040-h246-no" width="100%" alt=""></p>
+
+                <h5 style='text-align:justify'>Tạo bảng Awesome Table</h5>
+                <p style='text-align:justify'>Đăng nhập vào Awesome Table trên trang: https://awesome-table.com/ >> Create >> Select (chọn Spreadsheet vừa tạo trên google drive của bạn)</p>
+
+                <p style="text-align:center;"><img src="https://lh3.googleusercontent.com/MuJlMtElqgRJJlAhj6jO5NRBxhYRSw4DkEMgeX7hXnMl70TRp1UQW3ksT806Vm_oi9pgog17usEOWigQDvbSBEqNlw-aN4zHceEKSzNCUDsAI-aZyDXMRkePs0xbX7ZG3fozTwfrYcp2vrG2gmkjNkTpzLarbUHq-P7y_WA3VYiDSe1NSQ1MEN1cJ_bqBydG_r63g4E3NpVEMS7d_hPtOJxWEeVWkT6OmtXo0_Kw8V_kuU-ZlLFSJwuZuv0nLcyccCH0OlRbcfG_qRSJlzrFBvLNpYEgT5ChzW-UIDCL1a25Ua29OXtiBjlfWm6z2TKRBJftL9rZmckSoa5MTfyG6NIUunQPulFB9lrNmoi67I_ulIFBHA-c3SCQHRG1XF7TuKo3nwPlHKwAp2Ch5CsODiMCSllYU9TEjX3Hw-7mmsLVwYkoIUl2NX0CuiIiSPh2pkPYX0M-wmnwAAyLVkAOpuZVYoOIsTMoHwdWvuGnBgOZP_NXzIugSzgmsSoh4-aTCACdYRa7tHozDTaJsTpv_TDfWi8HlP7nxlw-64ubHyaWDbjsCP9M294AdgzKvF9rkbgjfr5lTpVLtPepOy30iNEqeeKid0N5vs9nqJfsvlrYL4kxBHL7cwws3QJiOBz_O91bF8qX8j5nBOammsnVOS7R6ZCiE-7dcPyZYWCLx4eCnTX5NWv5Qw0pNZPK7ZRIOwekIDbnye4GDl4yfGve9zOv20Nue_VHIuafNA=w503-h330-no" width="600" height="375" alt=""></p>
+
+                <p style='text-align:justify'>Sau đó vào phân View Configure, bạn chọn Gantt. Đối với phần hiển thị hoạt động cho bài này mình lựa chọn Gantt Chart sẽ thể hiện hoạt động một cách trực quan nhất. Đối với các trường hợp khác bạn tham khảo ứng dụng trên Template Gallery của Awesome Table. Phần II sẽ hướng dẫn thêm cho việc format và lựa chọn dạng trình bày phù hợp
+                    <br/>
+                Nhấn Update để xem phần kết quả của awesome table</p>
+
+                <p style='text-align:justify'>&nbsp;</p>
+                <h5 style='text-align:justify'>Thành phẩm – Out</h5>
+                <p style='text-align:justify'>Lưu ý để Hiển thị nội dung đến người khác bạn cần vào trang google sheet mình tạo để chế độ Công Khai hoặc hiệu chỉnh dành cho một vài người khác có khả năng truy cập và nhìn thấy thông tin. </p>
+
+                <div data-type="AwesomeTableView" data-viewID="-LQmZlfL8exVJCCjtB4H"></div>
+
+                <h5 style='text-align:justify'>Q&A: Một vài câu hỏi quan trọng</h5>
+                <h6 style='text-align:justify'>Câu hỏi: Awesome Table có lưu giữ và đọc các thông tin dữ liệu của tôi không?</h6>
+                <p style='text-align:justify'>Đây là câu hỏi quan trọng mà phần lớn người sử dụng quan tâm khi các dữ liệu cần có sự bảo mật trong công việc hay cá nhân của người sử dụng. Để giải thích cho câu hỏi trên, Awesome table có trả lời cụ thể trên trang chính thức của Awesome Table. Dưới đây mình tóm tắt lại lời giải thích của Awesome Table:
+                    <br/>
+                -   Khi bạn sử dụng Awesome Table lần đầu, bạn sẽ được hỏi để Awesome Table truy cập vào các thông tin cơ bản như hình:
+
+                                <p style="text-align:center;"><img src="https://lh3.googleusercontent.com/edjjvSCoQz_xCWHQsJA9LRdsg5cSVIaykR3p4WIRGrQ_kh3IZ4tRCp7pW9Fx1AMIMcCH9V_OWlh7_oUK6Nh6DGOorRo07Xx9Iu6rPQjdZGEOcRA5giXJ4qHdR4zFzB4Qxup2OWMcvQhLFwxzEingLHLy5zECb41RfEX29a-9-leIDWtM_rmLfOj1zALL7Oh0aoLqgmVfjIGf4FdHlWdxnWM161VvTcotX6INNZ_zNF1mEKCihH0vYbsoxNuadMAZmg9Ro9dOKf87BCSruXjVqP0PxhpT77SjwFUafcyMStdxlFI4aofsBHpljcIbP8qO68RoyTjPPfbPYXxFkWYcEyg4RgYY0TrcFsqM5MuAzejpFKO2_rHXAcryq76LKimawUc1Dl6Enm1u0mj4zhsRdMkOEpwuBuruJzyQiwPjiYRQ1cFcoA6mLe2YGsdJW8e1hpdiqctE0PBnNIHpg0WqrjbMV8H9dFQT5fV8QGL0fZ4XHW55BRf9Tk36WzWVjopXLNk3YoU_SxjJ0Q6dMsGbdbU4d27O6xA3hdSLDJTqwEWxU0tV1b63gBx17lPZ6nxMz_F3LvyM8RbYwShTjUkGVksL6lWOz3KpzInmhP4xtINgnXdel6ATuJ0sp5Ax_SnqfO-2miIUdopn52gV4yEyYOkAhRTV6NHQ05ejVCwAxwfHOZQVBWfTKB1i5O62lbG3Oja4edU-TpkA-fzgdq7XhEE0kJguZc4I6noU2w=w434-h574-no" width="600" height="375" alt=""></p>
+
+                    <br/>
+                -   Đọc Tệp của bạn trên Google Drive của bạn. <span style='color:red'>Lưu ý:</span> đọc Tệp ở đây chỉ có nghĩa là bạn cung cấp số ID của tệp chứ không phải dữ liệu trên tệp của bạn
+                    <br/>
+                -   Xem và quản lý bảng tính của bạn trên Google Drive: Phạm vi này cần cho phép để Google Api đẩy dữ liệu và hiển thị dữ liệu.
+Vậy Awesome Table có lưu trữ các thông tin dữ liệu trên bảng tính Google Sheet của tôi. Câu trả lời là KHÔNG. Giải thích cho điều này Awesome Table cung cấp quy trình để xử lý số liệu qua hình ảnh trên:
+                </p>
+
+                <p style="text-align:center;"><img src="https://lh3.googleusercontent.com/6lFp9BTTYfvzfLWisxGYQcNPO-ASDS74yA6vDq-axaFSTmDAsl13o1hQdBlp4p-KLjRTfdDjYxB2t292mqqz_JTiEP8PUG6AU1PZC4SYDf43Cei9nIHhhiV3lB_qO_hZscmVoafyt3Gjgm2Z6sVl6X1VihjJMzi-9TIkundG3eUTDQNYQgqIO1jmS6twRXJXrpKIygBFVDs5UB87CY9WZznWBrgoylqo2_7_AQ_YtkNpzDFoge0OgkqN__-gVtXBr3zFZB8_OBOoixE5BrdDmJTvUDLPfCiCNIpd_L1bTHk6Y30hioZ88qSYoTv9j5Jg77A6-vfRglTeMt3RnzwiwGpFFGhWXJ6qi00Zr-cpWHaaL5-y0yiemVYMFRGcRCbLZyVvODJdfVidex9s0qtweg3XMn89uJwzkFI880m6JOQEcfMsFVmxdz1LDL7lffwzTU3RTJzB7SZ6jK9_XiAYrg6_5wckyiH1p6T6bf_nX4KGGC3kVN5CYkGWj7aFcAQprwioxeWxPsv0g6Hiv3d_i5jH3OYLYBhINoAfTp_y2hBE7fLojP2e7zezrW4G2v7L1C_gOveltxGGpO23w81wEvMDNXL0sJu4b2_64DaOoKxydxGGe2AVC5fGsUf0oAtHyx3spGtk5nn4ecNn6Cpg4IQ0MkhlhdY_HCeVu-lL8TL0BIm6Dvr0yRP3G910IY2fwebib4KGU9avyed6F-o-mG91mzRre-_7eBXZOw=w1021-h574-no" width="600" height="375" alt=""></p>
+
+                <p style="text-align:center;">Như vậy điều này trừ phi bạn cho phép quyền truy cập đến người sử dụng có quyền đọc trên Google sheet. Mà phần này được thực hiện ở quyền bạn đặt trên chế độ Chia sẻ trên Google Sheet chứ không phải Awesome Table.</p>
+
+                <h6 style='text-align:justify'>Câu hỏi: làm cách nào thông tin của tôi chỉ được chia sẻ trong nội bộ</h6>
+                <p style="text-align:center;">Nếu bạn muốn sử dụng Awesome Table trong công việc và chia sẻ trong nội bộ thì việc cần làm đó là để chế độ chia sẻ trên Google Sheet bằng việc nhấn nút Chia sẻ và làm như ví dụ như hình:</p>  
+                <p style="text-align:center;"><img src="https://lh3.googleusercontent.com/Zeh2WMzHQkkguqFrmocpAi-ytW8_oYBxIHhwmqK88qBBq-GkSCbSBZtv9POy6qGYSxVLX52T2Lrf8VpDq_9mr7o5N0lzb42VGhwLelwqbOZryBO1wZiR6V0IuItzIgYrCN9tNC7dT1TJkG5Gh8qOXcyjhiAmzecQCZoK4C-_FxHHQC5VQ_hTe1KchPfIGQ-TTL2Zy5hyS5_h0iOVHr5ZvIWNRWID37J85kgLPcwhuYR7R2j6u8Ja_5kgkiHSsYv68lwDXXlVhq-QlyeIaG4RxU-TTTEkedStAvEQ5iJdI2cs6a_aCTWCsLkD8Vi4CyLeor8vO5iNcVQwJv_Ggwf98f-d2pSwPArxxAiNtW-ho3psXuAW1CHg4H5PXVtE05GneaaQs5bjx5VoUqhN01RsBvFITrcvyn_uyD-ZUFwNNvMpv7UBPjPFtQaXJWcoHgnkEep6sjKFabCYyV_0xCzkOKwbfnQeABX-AJjYtJIpxE7FrTjVLcvXahf5triRDxcTzKaoAx77FkxecioLXc4LvvOdGQsM4IY1lnK7qhUJwObxIBEncRqwP88jJh9G_YnKfcISZLFgS9OsZeieaFzM-VCDm8n1d7B2eLMpHe6JzOK1wRlNWLv_2hIL-x4Yiqj5akclysU0vesJRkhesBihKL2aJUDgc_66_AIjyp72RAKNEdGtDWIbM7v-56fOYHtZayZJaj8hRTAkCn1U6CnAJvkeSNxSr-Zu_YVBwg=w448-h355-no" width="600" height="375" alt=""></p>
+                <p style='text-align:justify'>Việc này đảm bảo cho mọi người phải đăng nhập vào email @domain.com để có thể thấy nội dung của Awesome Table hiển thị</p>
+                <p style='text-align:justify'>&nbsp;</p>
+
+                <h6 style='text-align:justify'>Câu hỏi: làm cách nào để tôi có thể sử dụng awesome table trên trang site cá nhân</h6>
+                <p style='text-align:justify'>Awesome Table cung cấp giải pháp sử dụng trên các nền tảng website khác nhau: Google site, Wordpress, Joomla, Wix, Squarespace, etc. Việc đơn giản là bạn cần nhúng embeded link trên nút share của Awesome Table vào phần nội dung các trang html của bạn:</p>
+                <p style="text-align:center;"><img src="https://lh3.googleusercontent.com/Teyp0t_TzbvFLIwbqS4V17CqivdU5QMl9ikDfqXCyYsDGF6yAImGBaJbbf0oFMKvIM_NiOCW-hS9MP7soWIqYOEJ9a6FPjZ-dHw9FpQm82TvCLfRuINUxyG9rcYAYFoFZWOwI-6ghJBlfZ3GoUOEraZA5OyMfivpJto6F0EXw7mzhr6ljsqCkRDzU9R-HC_UaQXMrDLTAGjCA_Gx-duuJiQDNP07vbduaKkfyYRcrnrwihtcvKkJLlH2m2Sv3GQ6Zl5TlCePsQDnh-nfZvjo_5cKzT7IDolWMUTDQ4JHxuTS4spriePtNWYyNstqQo4-xFWRD0Ad6qBQBIjbsVCBHtMq98i_JUlKjopA7yAryMdHjHM7q22ce5QqxZE_gbQAuyKrQ8ncGprExjREOk7WskdSMLuwSVs58cu0MgM-Zo3hnLQD0mil_PfVVKN23x3rkzoSVBmf0bVHv6Pc4EOOVQfb5OuE3jfUDLfzpV7exW6x3xhMHz3m6KtefcfE48P7zNodxtUCeCa2RZmCLI2gkuSpVYM8-7j7BPq049ouGWqF8xuHrSokG75tW0i8brBFFTSjgvckdvMvtS0WGFlhYBUV38rWQsJoTpvrAcieobZthOz14VoeYN9SfjEaM2uQ2jjmmSs7mcWCjBdrWJw5hKI4Gf_yUJ4yho9bKx2Ff9bFv5ZqYw2O6saKZbgVlGWBmgwuUeWk2J1H4JAs_lpdxPMlDWX1YQxT1WRWpg=w814-h467-no" width="600" height="375" alt=""></p>
+
+                <p style="text-align:center;">Vậy là mình đã xong phần hướng dẫn cơ bản cho Awesome Table. Phần 2 tập trung hướng dẫn tạo một trang báo cáo có tương tác nhiều hơn sử dụng với Google Form và một số hiển thị cơ bản qua việc sử dụng CSS, HTML cơ bản</p>
+
+        
+        <footer class="entry-footer">
+            <div class="tags-links"><a href=".." rel="tag">Google Form</a><a href=".." rel="tag">Awesome Table</a>
+            </div>
+        </footer>
+        </div>
+        <div class="col span_1_of_6"></div> 
+        <div class="col span_4_of_6">
+        <div id="fb-root"></div>
+        <div class="fb-comments" data-href="https://nhungleh.com/VI/Tutorials/Post3-Vi.html" data-numposts="5"></div>
+        </div>
+</article>      
+       
+        
+
+
+</main>
+</body>
+        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+        <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"196276fe57cf1dc27cd454d7c","lid":"82978b5514","uniqueMethods":true}) })</script>
+        <script src="../../../Developer/common-files/js/facebook-sdk.js"></script>
+        <script src="https://awesome-table.com/AwesomeTableInclude.js"></script>
+        <script src="../../../Developer/common-files/js/jquery-1.10.2.min.js"></script>
+        <script src="../../../Developer/flat-ui/js/bootstrap.min.js"></script>
+        <script src="../../../Developer/common-files/js/modernizr.custom.js"></script>
+        <script src="../../../Developer/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="../../../Developer/common-files/js/jquery.parallax.min.js"></script>
+        <script src="../../../Developer/common-files/js/startup-kit.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../../../Developer/samples/sample-04/js/jquery.backgroundvideo.min.js"></script>
+        <script src="../../../Developer/samples/sample-04/js/script.js"></script>
+</html>
