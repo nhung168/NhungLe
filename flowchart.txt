@@ -1,0 +1,34 @@
+st=>start: Step 1-Data Collection:>https://nhungleh.com/Tutorials.html#section1
+e=>end: Step 3 -Data Analytics & Modelling:>https://nhungleh.com/Tutorials.html#section3
+cond=>condition: Do you
+have data?
+op=>operation: Step 2 - Data 
+Wrangling & Processing:>https://nhungleh.com/Tutorials.html#section2
+cond2=>condition: Is it
+multiple
+datasets?
+op2=>subroutine: 2.1 Pre-analysis:>https://nhungleh.com/Tutorials.html#section22
+cond3=>condition: Does 
+this data 
+have any issue?
+op5=>subroutine:  Compile Datasets:>https://nhungleh.com/Tutorials.html#section21
+sub3=>parallel: Debug-
+back to previous steps
+cond4=>condition: Do you want 
+to collect 
+primary data?
+sub=>subroutine: Design method:>https://nhungleh.com/Tutorials.html#section12
+sub2=>subroutine: Find Data Resources:>https://nhungleh.com/Tutorials.html#section11
+
+st->cond
+cond(yes,right)->op->cond2
+cond2(no)->op2->cond3
+cond2(yes)->op5
+cond3(yes,right)->sub3->op
+cond3(no)->e
+
+
+
+cond(no)->cond4
+cond4(yes,right)->sub->op
+cond4(no)->sub2->op
