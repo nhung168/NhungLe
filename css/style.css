@@ -777,6 +777,11 @@ section * {
   padding: 10px 0;
   color: #001a5f;
 }
+
+.highlight {
+  border:solid 1px yellow;
+  }
+
 .background {
   position: absolute;
   left: 0;
