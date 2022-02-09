@@ -780,6 +780,7 @@ section * {
 
 .highlight {
   border:solid 1px yellow;
+  background-color: yellow;
   }
 
 .background {
