@@ -1,24 +1,24 @@
-st=>start: Step 1-Data Collection:>#section1
-e=>end: Step 3 -Data Analytics & Modelling:>#section3
+st=>start: Step 1-Data Collection:>#section1[blank]
+e=>end: Step 3 -Data Analytics & Modelling:>#section3[blank]
 cond=>condition: Do you
 have data?
 op=>operation: Step 2 - Data 
-Wrangling & Processing:>#section2
+Wrangling & Processing:>#section2[blank]
 cond2=>condition: Is it
 multiple
 datasets?
-op2=>subroutine: 2.1 Pre-analysis:>#section22
+op2=>subroutine: 2.1 Pre-analysis:>#section22[blank]
 cond3=>condition: Does 
 this data 
 have any issue?
-op5=>subroutine:  Compile Datasets:>#section21
+op5=>subroutine:  Compile Datasets:>#section21[blank]
 sub3=>parallel: Debug-
 back to previous steps
 cond4=>condition: Do you want 
 to collect 
 primary data?
-sub=>subroutine: Design method:>#section12
-sub2=>subroutine: Find Data Resources:>#section11
+sub=>subroutine: Design method:>#section12[blank]
+sub2=>subroutine: Find Data Resources:>#section11[blank]
 
 st->cond
 cond(yes,right)->op->cond2
