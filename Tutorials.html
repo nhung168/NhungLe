@@ -165,9 +165,10 @@
         <script>
             jQuery(function($) {
                 var path = window.location.href;
-                $('a').each(function() {    
-                if (this.href === path) {
-                $("a.highlight").removeClass('active');    
+                $('a').each(function() {
+                if (this.hasClass('highlight')){
+                    $this.removeClass();
+                } else if (this.href === path) {
                 $(this).addClass('highlight');
                 }
                 });
