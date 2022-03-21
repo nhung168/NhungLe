@@ -392,8 +392,8 @@ library(openair) # use for pre-analysis
 library(worldmet) # extract data from NOAA 
 library(tidyverse) # tidy data</code></pre>
 </div>
-<div id="collection-data" class="section level2">
-<h2>1.2 Collection data</h2>
+<div id="data-collection" class="section level2">
+<h2>1.2 Data Collection</h2>
 <p>PM 2.5 data is collected from multiple sources as Table 1</p>
 <div id="table-1.-information-about-data-sources-for-air-pollutant---particulate-matter-pm2.5" class="section level3">
 <h3>Table 1. Information about data sources for Air Pollutant - Particulate Matter (PM2.5)</h3>
@@ -452,8 +452,8 @@ library(tidyverse) # tidy data</code></pre>
 </tbody>
 </table>
 <p><em>Note: PM2.5 concentration from the Historical regional 1-hr PM2.5 value data set accessed on 1 February 2022 from Singapore National Environment Agency which is made available under the terms of the Singapore Open Data Licence version 1.0: <a href="https://data.gov.sg/dataset/historical-1-hr-pm2-5" class="uri">https://data.gov.sg/dataset/historical-1-hr-pm2-5</a></em></p>
-<p><strong>Because data from different sources have different structures, I use different step to collect data from US embassy consulate and data collected from other sites (Singapore Pollution Control Department)</strong></p>
-<p>The source of meteorological parameters (wind speed/direction, temperature, pressure, and relative humidity) were from the Global Surface Summary of the Day (GSOD) stations extrated from NOAA Integrated Surface Database (12- melevation) as Table 2</p>
+<p><strong>Because data from different sources have different structures, I used different steps to collect data from US embassy consulate and data collected from other sites (Singapore Pollution Control Department)</strong></p>
+<p>The source of meteorological parameters (wind speed/direction, temperature, pressure, and relative humidity) are from the Global Surface Summary of the Day (GSOD) stations extrated from NOAA Integrated Surface Database (12- melevation) as Table 2</p>
 </div>
 <div id="table-2.-information-about-data-sources-for-meteorology-data-from-gsod-stations" class="section level3">
 <h3>Table 2. Information about data sources for Meteorology data from GSOD stations:</h3>
@@ -499,8 +499,8 @@ library(tidyverse) # tidy data</code></pre>
 </tbody>
 </table>
 </div>
-<div id="collecting-data-from-us-embassy-consulate-and-meteorology-data-from-noaa" class="section level3">
-<h3>Collecting data from US embassy &amp; consulate and meteorology data from NOAA</h3>
+<div id="collecting-data-from-us-embassy-consulates-and-meteorology-data-from-noaa" class="section level3">
+<h3>Collecting data from US embassy &amp; consulates and meteorology data from NOAA</h3>
 <pre class="r"><code>#create a list including name of stations
 list &lt;- c(&quot;Hanoi&quot;,
           &quot; HoChiMinhCity&quot;, 
