@@ -1,0 +1,39 @@
+st=>start: Step 1-Data Collection
+e=>end: Step 3
+-Use data
+to answer questions
+cond=>condition: Do you
+have data?
+op=>operation: Step 2-Data Wrangling
+cond2=>condition: Is it
+multiple
+datasets?
+op2=>operation: 2.1 Pre-analysis
+cond3=>condition: Does 
+this data 
+have any issue?
+op5=>operation:  Compile Datasets
+sub3=>subroutine: Debug-
+back to previous steps
+cond4=>condition: Do you want 
+to collect 
+primary data?
+sub=>subroutine: Design method
+sub2=>subroutine: Find Data Resources
+
+
+st->cond
+cond(yes,right)->op->cond2
+cond2(no)->op2->cond3
+cond2(yes)->op5
+cond3(yes,right)->sub3->op
+cond3(no)->e
+
+
+
+cond(no)->cond4
+cond4(yes,right)->sub->op
+cond4(no)->sub2->op
+sub2->sub3
+
+st@>sub({'font-color':'blue'})
