@@ -1,0 +1,14 @@
+name: Hanoi-Air-Quality
+title: Hanoi-Air-Quality
+username:
+account: nhungleh
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6070183
+bundleId: 5808335
+url: https://nhungleh.shinyapps.io/Hanoi-Air-Quality/
+when: 1650254406.46245
+lastSyncTime: 1650254406.46245
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|shiny-cheatsheet.pdf
